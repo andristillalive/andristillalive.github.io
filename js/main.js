@@ -48,7 +48,45 @@ $(document).ready(function(){
 		$("#table-education").append(row);
 	}
 	else if(page == "experience.html"){
+		var row = $("<thead><tr>");
+		row.append($("<th>No.</th>"));
+		row.append($("<th>Perusahaan</th>"));
+		row.append($("<th>Status</th>"));
+		row.append($("<th>Lama Kerja</th>"));
+		row.append($("<th>Project</th>"));
+		row.append($("<th>Keterangan</th>"));
+		row.append($("</tr></thead>"));
 		
+		row.append($("<tbody>"));
+		for(i = 0;i < dataexperience.pengalaman.length;i++){
+			row.append($("<tr>"));
+			row.append($("<td>"+(parseInt(i) + 1)+"</td>"));
+			for(j = 0;j < dataexperience.pengalaman[i].length;j++){
+				row.append($("<td>"+dataexperience.pengalaman[i][j]+"</td>"));
+			}
+			row.append($("</tr>"));
+		}
+		row.append($("</tbody>"))
+		$("#table-job-experience").append(row);
+		
+		row = $("<thead><tr>");
+		row.append($("<th>No.</th>"));
+		row.append($("<th>Kemampuan</th>"));
+		row.append($("<th>Lama Penggunaan</th>"));
+		row.append($("<th>Skor(1 - 10)</th>"));
+		row.append($("</tr></thead>"));
+		
+		row.append($("<tbody>"));
+		for(i = 0;i < dataexperience.skill.length;i++){
+			row.append($("<tr>"));
+			row.append($("<td>"+(parseInt(i) + 1)+"</td>"));
+			for(j = 0;j < dataexperience.skill[i].length;j++){
+				row.append($("<td>"+dataexperience.skill[i][j]+"</td>"));
+			}
+			row.append($("</tr>"));
+		}
+		row.append($("</tbody>"))
+		$("#table-skill").append(row);
 	}
 	else if(page == ""){
 		

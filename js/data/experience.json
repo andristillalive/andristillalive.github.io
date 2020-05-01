@@ -1,13 +1,13 @@
 var dataexperience = {
-	"pengalaman" : [[1,"PT. Xsis Mitra Utama","Bootcamp 9 Minggu", "Oktober 2016 - Januari 2017", "Sistem Perpustakaan","Logic, Console Apps, C#(basic), Entity Framework, Sql Query, ASP.NET MVC, Jquery, Bootstrap."],
-					[2,"PT Magkna Analytics","Kontrak", "Februari 2017 - September 2018", "SLIK","C#(advanced), ADO.NET, Sql Query, Stored Procedure, Sql Function, ASP.NET MVC, Javascript, Jquery, Bootstrap, Kendo UI, Oracle."],
-					[3,"PT SOECHI LINES Tbk","Kontrak", "Oktober 2018 - Maret 2019", "e-Procurement","C#, ADO.NET, Sql Query, Stored Procedure, Sql Function, ASP.NET Web Form, Javascript, DevExpress."],
-					[4,"PT Central Mega Kencana","Kontrak", "April 2019 - Juli 2020", "JAWS(POS Retail)","C#, ADO.NET, Sql Query, Stored Procedure, Sql Function, ASP.NET Web Form, LINQ, Javascript, Jquery, Bootstrap."]],],
-	"skill" : [[1,"C#(ASP.Net MVC/WebForm/.NET Core)","Lebih dari 3 tahun", 10],
-			   [2,"Javascript","Lebih dari 3 tahun", 9],
-			   [3,"Sql Server (include Stored Procedure, Function and Job)","Lebih dari 3 tahun", 10],
-			   [4,"Jquery","Sekitar 3 tahun", 9.5],
-			   [5,"Bootstrap","Sekitar 3 tahun", 8],
-			   [6,"Kendo UI","Sekitar 1.5 tahun", 9],
-			   [7,"DevExpress","Sekitar 6 bulan", 8]]
+	"pengalaman" : [["PT. Xsis Mitra Utama","Bootcamp 9 Minggu", "Oktober 2016 - Januari 2017", "Sistem Perpustakaan","Logic, Console Apps, C#(basic), Entity Framework, Sql Query, ASP.NET MVC, Jquery, Bootstrap."],
+					["PT Magkna Analytics","Kontrak", "Februari 2017 - September 2018", "SLIK","C#(advanced), ADO.NET, Sql Query, Stored Procedure, Sql Function, ASP.NET MVC, Javascript, Jquery, Bootstrap, Kendo UI, Oracle."],
+					["PT SOECHI LINES Tbk","Kontrak", "Oktober 2018 - Maret 2019", "e-Procurement","C#, ADO.NET, Sql Query, Stored Procedure, Sql Function, ASP.NET Web Form, Javascript, DevExpress."],
+					["PT Central Mega Kencana","Kontrak", "April 2019 - Juli 2020", "JAWS (POS Retail)","C#, ADO.NET, Sql Query, Stored Procedure, Sql Function, ASP.NET Web Form, LINQ, Javascript, Jquery, Bootstrap."]],
+	"skill" : [["C#(ASP.Net MVC/WebForm)","Lebih dari 3 tahun", 10],
+			   ["Javascript","Lebih dari 3 tahun", 9],
+			   ["Sql Server (include Stored Procedure, Function and Job)","Lebih dari 3 tahun", 10],
+			   ["Jquery","Sekitar 3 tahun", 9.5],
+			   ["Bootstrap","Sekitar 3 tahun", 8],
+			   ["Kendo UI","Sekitar 1.5 tahun", 9],
+			   ["DevExpress","Sekitar 6 bulan", 8]]
 }
