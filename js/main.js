@@ -47,7 +47,7 @@ $(document).ready(function(){
 		row.append($("</tbody>"));
 		$("#table-education").append(row);
 	}
-	else if(page == ""){
+	else if(page == "experience.html"){
 		
 	}
 	else if(page == ""){
