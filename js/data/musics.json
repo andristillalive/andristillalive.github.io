@@ -1,0 +1,22 @@
+var musics = {
+	"genre" : {
+		"indie" : [["Akad","Payung Teduh",""],
+					["Di Atas Meja","Payung Teduh",""],
+					["Berdua Saja dan Rahasia","Payung Teduh",""],
+					["Selalu Muda","Payung Teduh",""],
+					["Kita Adalah Sisa Sisa Keikhlasan","Payung Teduh",""],
+					["Menuju Senja","Payung Teduh",""],
+					["Zona Nyaman","Fourtwenty",""],
+					["Fana Merah Jambu","Fourtwenty",""],
+					["Jalan Pulang","Pusakata",""],
+					["Sssst","Sore",""]],
+		"pop"	: [["Ingatlah Hari Ini","Project Pop",""],
+				   ["Lucky","Json Mraz",""],
+				   ["Cobalah Kau Mengerti","J-rocks",""],
+				   ["Cinta Bukan Dusta","NOAH",""],
+				   [""]]
+		"jazz"	: [[]],
+		"rock"	: [[]],
+		"koplo"	: [[]],
+	}
+}
