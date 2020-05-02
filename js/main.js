@@ -88,8 +88,28 @@ $(document).ready(function(){
 		row.append($("</tbody>"))
 		$("#table-skill").append(row);
 	}
-	else if(page == ""){
+	else if(page == "musics.html"){
+		var row = $("<thead><tr>");
+		row.append($("<th>No.</th>"));
+		row.append($("<th>Judul</th>"));
+		row.append($("<th>Artis</th>"));
+		row.append($("<th></th>"));
+		row.append($("</tr></thead>"));
 		
+		row.append($("<tbody>"));
+		for(i = 0;i < musics.genre.indie.length;i++){
+			row.append($("<tr>"));
+			row.append($("<td>"+(parseInt(i) + 1)+"</td>"));
+			for(j = 0;j < musics.genre.indie[i].length;j++){
+				if(j != 2)
+					row.append($("<td>"+musics.genre.indie[i][j]+"</td>"));
+				else
+					row.append($("<td><button class=\"btn\"><i class=\"fa fa-square\"></i></button></td>"))
+			}
+			row.append($("</tr>"));
+		}
+		row.append($("</tbody>"))
+		$("#table-music").append(row);
 	}
 })
 
@@ -112,4 +132,7 @@ function onAppendDataTable(data, idtable){
 function onAppendTable(){
 	onAppendHeaderTable();
 	onAppendDataTable();
+}
+function onClickGenreMusicButton(e){
+	
 }

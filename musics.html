@@ -10,18 +10,11 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="icon" href="images/FOTO.jpg">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
 		<title>MUSICS</title>
 		<style>
 			.navbar-opacity{
 				opacity:0.9;
-			}
-			.carousel-caption{
-				color:black;
-				top:50%
-			}
-			h2{
-				font-family:"consolas";
-				color:white;
 			}
 			small{
 				font-family:"consolas";
@@ -80,6 +73,24 @@
 				<button class="btn btn-success"><small>Rock</small></button>
 				<button class="btn btn-primary"><small>Koplo</small></button>
 				<div class="row">
+					<div class="col-md-12 mt-3 pull-left">
+						<div class="card">
+							<div class="card-header">
+								MUSIC
+							</div>
+							<div class="card-body">
+								<div class="col-md-6 pull-left">
+								<table id="table-music" class="table table-responsive">
+								</table>
+								</div>
+								<div id="play-video" class="col-md-6 pull-right">
+									<iframe id="ytplayer" type="text/html" width="250" src="https://www.youtube-nocookie.com/embed/WlmWXoP0C0s"" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+							</div>
+							<div class="card-footer">
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</main>
@@ -90,5 +101,7 @@
 		<script src="js/popper.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/angular.min.js"></script>
+		<script src="js/data/musics.json"></script>
+		<script src="js/main.js"></script>
     </body>
 </html>

@@ -1,6 +1,6 @@
 var musics = {
 	"genre" : {
-		"indie" : [["Akad","Payung Teduh",""],
+		"indie" : [["Akad","Payung Teduh","href"],
 					["Di Atas Meja","Payung Teduh",""],
 					["Berdua Saja dan Rahasia","Payung Teduh",""],
 					["Selalu Muda","Payung Teduh",""],
@@ -39,7 +39,7 @@ var musics = {
 				   ["Pertempuran Hati","Netral",""],
 				   ["Exist","Avenged Sevenfold",""],
 				   ["So Far Away","Avenged Sevenfold",""],
-				   ["Fiction","Avenged Sevenfold",""]]
+				   ["Fiction","Avenged Sevenfold",""]],
 		"koplo"	: [["Sayang","Via Vallen",""],
 				   ["Bojo Galak","Via Vallen",""],
 				   ["Kartonyono Medot Janji","Denny Caknan",""],
