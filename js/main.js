@@ -104,7 +104,7 @@ $(document).ready(function(){
 				if(j != 2)
 					row.append($("<td>"+musics.genre.indie[i][j]+"</td>"));
 				else
-					row.append($("<td><button class=\"btn\"><i class=\"fa fa-square\"></i></button></td>"))
+					row.append($("<td><button id=\"btn-play-"+i+"\" class=\"btn\" data-href=\""+musics.genre.indie[i][j]+"\" onclick=\"onClickPlay(this);\"><i class=\"fa fa-play\"></i></button></td>"))
 			}
 			row.append($("</tr>"));
 		}
@@ -134,5 +134,141 @@ function onAppendTable(){
 	onAppendDataTable();
 }
 function onClickGenreMusicButton(e){
-	
+	var buttonname = $(e).find('small').text();
+	if(buttonname == "Indie"){
+		$("#table-music thead").remove();
+		$("#table-music tbody").remove();
+		var row = $("<thead><tr>");
+		row.append($("<th>No.</th>"));
+		row.append($("<th>Judul</th>"));
+		row.append($("<th>Artis</th>"));
+		row.append($("<th></th>"));
+		row.append($("</tr></thead>"));
+		
+		row.append($("<tbody>"));
+		for(i = 0;i < musics.genre.indie.length;i++){
+			row.append($("<tr>"));
+			row.append($("<td>"+(parseInt(i) + 1)+"</td>"));
+			for(j = 0;j < musics.genre.indie[i].length;j++){
+				if(j != 2)
+					row.append($("<td>"+musics.genre.indie[i][j]+"</td>"));
+				else
+					row.append($("<td><button id=\"btn-play-"+i+"\" class=\"btn\" data-href=\""+musics.genre.indie[i][j]+"\" onclick=\"onClickPlay(this);\"><i class=\"fa fa-play\"></i></button></td>"))
+			}
+			row.append($("</tr>"));
+		}
+		row.append($("</tbody>"))
+		$("#table-music").append(row);
+	}
+	else if(buttonname == "Pop"){
+		$("#table-music thead").remove();
+		$("#table-music tbody").remove();
+		var row = $("<thead><tr>");
+		row.append($("<th>No.</th>"));
+		row.append($("<th>Judul</th>"));
+		row.append($("<th>Artis</th>"));
+		row.append($("<th></th>"));
+		row.append($("</tr></thead>"));
+		
+		row.append($("<tbody>"));
+		for(i = 0;i < musics.genre.pop.length;i++){
+			row.append($("<tr>"));
+			row.append($("<td>"+(parseInt(i) + 1)+"</td>"));
+			for(j = 0;j < musics.genre.pop[i].length;j++){
+				if(j != 2)
+					row.append($("<td>"+musics.genre.pop[i][j]+"</td>"));
+				else
+					row.append($("<td><button id=\"btn-play-"+i+"\" class=\"btn\" data-href=\""+musics.genre.pop[i][j]+"\" onclick=\"onClickPlay(this);\"><i class=\"fa fa-play\"></i></button></td>"))
+			}
+			row.append($("</tr>"));
+		}
+		row.append($("</tbody>"))
+		$("#table-music").append(row);
+	}
+	else if(buttonname == "Jazz"){
+		$("#table-music thead").remove();
+		$("#table-music tbody").remove();
+		var row = $("<thead><tr>");
+		row.append($("<th>No.</th>"));
+		row.append($("<th>Judul</th>"));
+		row.append($("<th>Artis</th>"));
+		row.append($("<th></th>"));
+		row.append($("</tr></thead>"));
+		
+		row.append($("<tbody>"));
+		for(i = 0;i < musics.genre.jazz.length;i++){
+			row.append($("<tr>"));
+			row.append($("<td>"+(parseInt(i) + 1)+"</td>"));
+			for(j = 0;j < musics.genre.jazz[i].length;j++){
+				if(j != 2)
+					row.append($("<td>"+musics.genre.jazz[i][j]+"</td>"));
+				else
+					row.append($("<td><button id=\"btn-play-"+i+"\" class=\"btn\" data-href=\""+musics.genre.jazz[i][j]+"\" onclick=\"onClickPlay(this);\"><i class=\"fa fa-play\"></i></button></td>"))
+			}
+			row.append($("</tr>"));
+		}
+		row.append($("</tbody>"))
+		$("#table-music").append(row);
+	}
+	else if(buttonname == "Rock"){
+		$("#table-music thead").remove();
+		$("#table-music tbody").remove();
+		var row = $("<thead><tr>");
+		row.append($("<th>No.</th>"));
+		row.append($("<th>Judul</th>"));
+		row.append($("<th>Artis</th>"));
+		row.append($("<th></th>"));
+		row.append($("</tr></thead>"));
+		
+		row.append($("<tbody>"));
+		for(i = 0;i < musics.genre.rock.length;i++){
+			row.append($("<tr>"));
+			row.append($("<td>"+(parseInt(i) + 1)+"</td>"));
+			for(j = 0;j < musics.genre.rock[i].length;j++){
+				if(j != 2)
+					row.append($("<td>"+musics.genre.rock[i][j]+"</td>"));
+				else
+					row.append($("<td><button id=\"btn-play-"+i+"\" class=\"btn\" data-href=\""+musics.genre.rock[i][j]+"\" onclick=\"onClickPlay(this);\"><i class=\"fa fa-play\"></i></button></td>"))
+			}
+			row.append($("</tr>"));
+		}
+		row.append($("</tbody>"))
+		$("#table-music").append(row);
+	}
+	else if(buttonname == "Koplo"){
+		$("#table-music thead").remove();
+		$("#table-music tbody").remove();
+		var row = $("<thead><tr>");
+		row.append($("<th>No.</th>"));
+		row.append($("<th>Judul</th>"));
+		row.append($("<th>Artis</th>"));
+		row.append($("<th></th>"));
+		row.append($("</tr></thead>"));
+		
+		row.append($("<tbody>"));
+		for(i = 0;i < musics.genre.koplo.length;i++){
+			row.append($("<tr>"));
+			row.append($("<td>"+(parseInt(i) + 1)+"</td>"));
+			for(j = 0;j < musics.genre.koplo[i].length;j++){
+				if(j != 2)
+					row.append($("<td>"+musics.genre.koplo[i][j]+"</td>"));
+				else
+					row.append($("<td><button id=\"btn-play-"+i+"\" class=\"btn\" data-href=\""+musics.genre.koplo[i][j]+"\" onclick=\"onClickPlay(this);\"><i class=\"fa fa-play\"></i></button></td>"))
+			}
+			row.append($("</tr>"));
+		}
+		row.append($("</tbody>"))
+		$("#table-music").append(row);
+	}
+}
+
+function onClickPlay(e){
+	var idx = e.id;
+	var eserce = e.getAttribute('data-href');
+	var iframes = "<iframe id=\"ytplayer\" type=\"text/html\" width=\"250\" src=\""+eserce+"\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>";
+	$("[id^=btn-play-] i").removeClass("fa fa-play");
+	$("[id^=btn-play-] i").addClass("fa fa-play");
+	$("#"+idx+"").find("i").addClass("fa fa-stop");
+	$("#play-video iframe").remove();
+	$("#play-video").load(iframes);
 }

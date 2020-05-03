@@ -1,7 +1,7 @@
 var musics = {
 	"genre" : {
-		"indie" : [["Akad","Payung Teduh","href"],
-					["Di Atas Meja","Payung Teduh",""],
+		"indie" : [["Akad","Payung Teduh","https://www.youtube.com/embed/aSXrf0WDR5I"],
+					["Di Atas Meja","Payung Teduh","https://www.youtube.com/embed/Fzk1Hbs8hZw"],
 					["Berdua Saja dan Rahasia","Payung Teduh",""],
 					["Selalu Muda","Payung Teduh",""],
 					["Kita Adalah Sisa Sisa Keikhlasan","Payung Teduh",""],
@@ -29,7 +29,7 @@ var musics = {
 				   ["Pilihanku","Maliq & d'Essential",""],
 				   ["Happy","Mocca",""],
 				   ["Piknik 72","Naif",""],
-				   ["Lebih Indah","Adera"]],
+				   ["Lebih Indah","Adera",""]],
 		"rock"	: [["Through The Fire and Flames","DragonForce",""],
 				   ["Dear God","A7X",""],
 				   ["The Reason","Hoobastank",""],
