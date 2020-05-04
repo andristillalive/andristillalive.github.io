@@ -265,11 +265,15 @@ function onClickGenreMusicButton(e){
 function onClickPlay(e){
 	var idx = e.id;
 	var eserce = e.getAttribute('data-href');
-	var iframes = "<iframe id=\"ytplayer\" type=\"text/html\" width=\"250\" src=\""+eserce+"?autoplay=1\" frameborder=\"0\" allow=\"accelerometer; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>";
+	var iframes = "<iframe id=\"ytplayer\" type=\"text/html\" width=\"250\" src=\""+eserce+"?autoplay=1\" frameborder=\"0\" autoplay allow=\"accelerometer; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>";
 	$("[id^=btn-play-]").find("i").removeClass("fa-stop");
 	$("[id^=btn-play-]").find("i").addClass("fa-play");
 	$("#"+idx+"").find("i").removeClass("fa-stop");
 	$("#"+idx+"").find("i").addClass("fa-stop");
 	$("#play-video iframe").remove();
 	$("#play-video").append($(iframes));
+	
+	$('html,body').animate({
+       scrollTop: $("#play-video").offset().top
+    }, 'slow');
 }
