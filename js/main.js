@@ -93,7 +93,7 @@ $(document).ready(function(){
 		row.append($("<th>No.</th>"));
 		row.append($("<th>Judul</th>"));
 		row.append($("<th>Artis</th>"));
-		row.append($("<th></th>"));
+		row.append($("<th>Play</th>"));
 		row.append($("</tr></thead>"));
 		
 		row.append($("<tbody>"));
@@ -142,7 +142,7 @@ function onClickGenreMusicButton(e){
 		row.append($("<th>No.</th>"));
 		row.append($("<th>Judul</th>"));
 		row.append($("<th>Artis</th>"));
-		row.append($("<th></th>"));
+		row.append($("<th>Play</th>"));
 		row.append($("</tr></thead>"));
 		
 		row.append($("<tbody>"));
@@ -167,7 +167,7 @@ function onClickGenreMusicButton(e){
 		row.append($("<th>No.</th>"));
 		row.append($("<th>Judul</th>"));
 		row.append($("<th>Artis</th>"));
-		row.append($("<th></th>"));
+		row.append($("<th>Play</th>"));
 		row.append($("</tr></thead>"));
 		
 		row.append($("<tbody>"));
@@ -192,7 +192,7 @@ function onClickGenreMusicButton(e){
 		row.append($("<th>No.</th>"));
 		row.append($("<th>Judul</th>"));
 		row.append($("<th>Artis</th>"));
-		row.append($("<th></th>"));
+		row.append($("<th>Play</th>"));
 		row.append($("</tr></thead>"));
 		
 		row.append($("<tbody>"));
@@ -217,7 +217,7 @@ function onClickGenreMusicButton(e){
 		row.append($("<th>No.</th>"));
 		row.append($("<th>Judul</th>"));
 		row.append($("<th>Artis</th>"));
-		row.append($("<th></th>"));
+		row.append($("<th>Play</th>"));
 		row.append($("</tr></thead>"));
 		
 		row.append($("<tbody>"));
@@ -242,7 +242,7 @@ function onClickGenreMusicButton(e){
 		row.append($("<th>No.</th>"));
 		row.append($("<th>Judul</th>"));
 		row.append($("<th>Artis</th>"));
-		row.append($("<th></th>"));
+		row.append($("<th>Play</th>"));
 		row.append($("</tr></thead>"));
 		
 		row.append($("<tbody>"));
