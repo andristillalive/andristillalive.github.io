@@ -15,21 +15,13 @@
 			.navbar-opacity{
 				opacity:0.9;
 			}
-			.carousel-caption{
-				color:black;
-				top:50%
-			}
-			h2{
-				font-family:"consolas";
-				color:white;
-			}
 			small{
 				font-family:"consolas";
 				color:white;
 			}
 		</style>
     </head>
-    <body>
+    <body style="background-image: url('images/40.jpg');background-size: 100% 100%;background-repeat: no-repeat;background-attachment: fixed;">
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark navbar-opacity">
 		  <a class="navbar-brand" href="mainpage.html">BIODATA</a>
 		  <button class="navbar-toggler" type="button" id="btn-expanded" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,12 +60,26 @@
 						<button class="btn btn-success my-2 my-sm-0" type="button" onclick="window.location.href = 'index.html'">Sign Out</button>
 					</li>
 				</ul>
-			</div >
-			<div>
 			</div>
 		  </div>
 		</nav>
-		<main>
+		<main role="main" class="container" style="margin-top:70px">
+			<h2 class="text-center" >MY BOOKS</h2>
+			<div class="row">
+				<div class="col-md-6 mt-3 offset-md-3 pull-left">
+					<div class="card">
+						<div class="card-header">
+							BOOKS
+						</div>
+						<div class="card-body">
+							<div>
+								<table id="table-books" class="table table-responsive">
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</main>
 		<footer>
 		</footer>
@@ -82,5 +88,7 @@
 		<script src="js/popper.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/angular.min.js"></script>
+		<script src="js/data/books.json"></script>
+		<script src="js/main.js"></script>
     </body>
 </html>

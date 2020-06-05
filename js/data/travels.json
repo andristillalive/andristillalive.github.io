@@ -1,0 +1,9 @@
+var travels = {
+	"travel" : {
+		"mountain" : [],
+		"beach" : [],
+		"city" : [],
+		"waterfall" : [],
+		"museum" : []
+	}
+}

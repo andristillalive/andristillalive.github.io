@@ -111,6 +111,32 @@ $(document).ready(function(){
 		row.append($("</tbody>"))
 		$("#table-music").append(row);
 	}
+	else if(page == "books.html"){
+		var row = $("<thead><tr>");
+		row.append($("<th>No.</th>"));
+		row.append($("<th>Judul</th>"));
+		row.append($("<th>Writer</th>"));
+		row.append($("<th>Action</th>"));
+		row.append($("</tr></thead>"));
+		
+		row.append($("<tbody>"));
+		for(i = 0;i < books.mybooks.length;i++){
+			row.append($("<tr>"));
+			row.append($("<td>"+(parseInt(i) + 1)+"</td>"));
+			for(j = 0;j < books.mybooks[i].length;j++){
+				if(j != 2)
+					row.append($("<td>"+books.mybooks[i][j]+"</td>"));
+				else
+					row.append($("<td><a href='"+books.mybooks[i][j]+"' class='txt-link' target='blank'>Read More...</a></td>"));
+			}
+			row.append($("</tr>"));
+		}
+		row.append($("</tbody>"))
+		$("#table-books").append(row);
+	}
+	else if(page == "travels.html"){
+		
+	}
 })
 
 function onAppendHeaderTable(idtable){

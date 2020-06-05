@@ -15,14 +15,6 @@
 			.navbar-opacity{
 				opacity:0.9;
 			}
-			.carousel-caption{
-				color:black;
-				top:50%
-			}
-			h2{
-				font-family:"consolas";
-				color:white;
-			}
 			small{
 				font-family:"consolas";
 				color:white;
@@ -68,12 +60,45 @@
 						<button class="btn btn-success my-2 my-sm-0" type="button" onclick="window.location.href = 'index.html'">Sign Out</button>
 					</li>
 				</ul>
-			</div >
-			<div>
 			</div>
 		  </div>
 		</nav>
-		<main>
+		<main role="main" class="container" style="margin-top:70px">
+			<div class="jumbotron">
+				<h2 class="text-center" >MY TRAVEL</h2>
+				<button class="btn bg-dark" onclick="onClickGenreMusicButton(this);"><small>Mountain</small></button>
+				<button class="btn btn-danger" onclick="onClickGenreMusicButton(this);"><small>Beach</small></button>
+				<button class="btn btn-warning" onclick="onClickGenreMusicButton(this);"><small>City</small></button>
+				<button class="btn btn-success" onclick="onClickGenreMusicButton(this);"><small>Waterfall</small></button>
+				<button class="btn btn-primary" onclick="onClickGenreMusicButton(this);"><small>Museum</small></button>
+				<div class="row">
+					<div class="col-md-6 mt-3 pull-left">
+						<div class="card">
+							<div class="card-header">
+								MUSIC
+							</div>
+							<div class="card-body">
+								<div>
+									<table id="table-music" class="table table-responsive">
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 mt-3 pull-right">
+						<div class="card">
+							<div class="card-header">
+								PLAYED
+							</div>
+							<div class="card-body">
+								<div id="play-video" class="text-center">
+									<!--<iframe id="ytplayer" type="text/html" width="250" src="https://www.youtube-nocookie.com/embed/WlmWXoP0C0s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</main>
 		<footer>
 		</footer>

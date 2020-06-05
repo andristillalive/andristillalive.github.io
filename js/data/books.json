@@ -1,0 +1,8 @@
+var books = {
+	"mybooks" : [["The Holy Quran","God Almighty","https://play.google.com/store/apps/details?id=com.quran.labs.androidquran&hl=en_US"],
+				 ["The Chronicles Of Narnia","C.S. Lewis","https://play.google.com/store/books/details/C_S_Lewis_The_Chronicles_of_Narnia_Complete_7_Book?id=SHDXsoQOjO8C&hl=en_US"],
+				 ["Negeri 5 Menara","Anwar Fuadi","https://play.google.com/store/books/details/A_Fuadi_Negeri_5_Menara?id=E-I8DwAAQBAJ&hl=en_US"],
+				 ["Ranah 3 Warna","Anwar Fuadi","https://play.google.com/store/books/details/A_Fuadi_RANAH_3_WARNA?id=zVJFDwAAQBAJ&hl=en_US"],
+				 ["Rantau 1 Muara","Anwar Fuadi","https://play.google.com/store/books/details/Ahmad_Fuadi_Rantau_1_Muara?id=3eI8DwAAQBAJ&hl=en_US"],
+				 ["Garis Waktu","Fiersa Besari","https://play.google.com/store/books/details/Fiersa_Besari_Garis_Waktu?id=klR9DQAAQBAJ&hl=en_US"]]
+}
