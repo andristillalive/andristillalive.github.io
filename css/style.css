@@ -71,7 +71,7 @@ a:focus {
 
 img {
   max-width: 100%;
-  height: auto;
+  /*height: auto;*/
 }
 
 .fix {
@@ -84,15 +84,16 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Raleway', sans-serif;
-  margin: 0 0 15px;
-  color: #444;
-  font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 0 15px;
+    color: #E42032;
+    font-weight: 500;
 }
 
 h1 {
-  font-size: 48px;
-  line-height: 50px;
+    font-size: 48px;
+    line-height: 50px;
+    font-size: calc(1.5rem + 3vw);
 }
 
 h2 {
@@ -126,7 +127,7 @@ a {
 }
 
 a:hover {
-  color: #3EC1D5;
+  color: #E42032;
   text-decoration: none;
 }
 
@@ -135,20 +136,20 @@ a:active, a:hover {
 }
 
 body {
-  background: #fff none repeat scroll 0 0;
-  color: #444;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  text-align: left;
-  overflow-x: hidden;
-  line-height: 22px;
+    background: #f5f8fa none repeat scroll 0 0;
+    color: #2a166f; /*#444;*/
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    overflow-x: hidden;
+    line-height: 22px;
 }
 
 /* Back to top button */
 .back-to-top {
   position: fixed;
   display: none;
-  background: #3EC1D5;
+  background: #E42032;
   color: #fff;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
@@ -165,14 +166,14 @@ body {
 }
 
 .back-to-top:focus {
-  background: #3EC1D5;
+  background: #E42032;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #3cd6ed;
-  color: #fff;
+    background: #eb897a;
+    color: #fff;
 }
 
 .clear {
@@ -198,16 +199,16 @@ div#preloader {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #fff url('../img/preloader.gif') no-repeat center center;
+  background: #fff url('../img/loadervmg.gif') no-repeat center center;
 }
 
 ::-moz-selection {
-  background: #3EC1D5;
+  background: #E42032;
   text-shadow: none;
 }
 
 ::selection {
-  background: #3EC1D5;
+  background: #E42032;
   text-shadow: none;
 }
 
@@ -259,13 +260,13 @@ div#preloader {
 /*--------------------------------*/
 
 .header-area {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-  background: rgba(0, 0, 0, 0.40);
-  z-index: 9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: white;/*rgb(205,39,23); rgba(0, 0, 0, 0.40);*/
+    z-index: 9;
 }
 
 .navbar-header a.navbar-brand {
@@ -281,7 +282,7 @@ div#preloader {
 
 .main-menu ul.navbar-nav li a {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  color: #fff;
+  color: #E42032;
   font-size: 15px;
   font-weight: 500;
   padding: 24px 0px;
@@ -290,7 +291,7 @@ div#preloader {
 }
 
 .main-menu ul.navbar-nav li.active > a::after {
-  border: 1px solid #fff;
+  border: 1px solid #E42032;
   bottom: 0px;
   content: "";
   left: 0;
@@ -300,21 +301,21 @@ div#preloader {
 
 .main-menu ul.navbar-nav li.active a:hover {
   background: none;
-  color: #fff;
+  color: #2a166f;
 }
 
 .main-menu ul.navbar-nav li.active a:focus {
-  color: #fff;
+  color: #E42032;
 }
 
 .main-menu ul.navbar-nav li.active a {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  color: #fff;
+  color: #E42032;
   position: relative;
 }
 
 .main-menu ul.navbar-nav li a:hover {
-  color: #3EC1D5;
+  color: #E42032;
 }
 
 .navbar {
@@ -328,7 +329,7 @@ div#preloader {
 
 .main-menu ul.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
   background: none;
-  color: #333;
+  color: #2a166f;
 }
 
 .navbar-default .navbar-toggle {
@@ -340,7 +341,7 @@ div#preloader {
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
   background-color: transparent;
-  color: #fff;
+  color: #E42032;
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -348,7 +349,7 @@ div#preloader {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #fff;
+  background-color: #E42032;
   width: 30px;
   height: 2px;
 }
@@ -370,7 +371,7 @@ div#preloader {
 }
 
 .main-menu .dropdown ul {
-  background: #000;
+  background: #fff;
 }
 
 .main-menu .dropdown ul li {
@@ -383,8 +384,8 @@ div#preloader {
 /*--------------------------------*/
 
 .header-area.stick {
-  background-color: rgba(0, 0, 0, 1);
-  height: 70px;
+  background-color: #fff;
+  /*height: 70px;*/
   position: fixed;
   top: 0;
   width: 100%;
@@ -405,7 +406,7 @@ div#preloader {
 }
 
 .sticky-logo h1 {
-  color: #fff;
+  color: #E42032;
   padding: 0;
   margin: 0;
   font-size: 36px;
@@ -414,35 +415,35 @@ div#preloader {
 }
 
 .sticky-logo h1 span {
-  color: #3ec1d5;
+  color: #E42032;
 }
 .stick .main-menu ul.navbar-nav li.active > a::after {
-  border: 1px solid #fff;
-  bottom: 0px;
-  content: "";
-  left: 0;
-  position: absolute;
-  width: 100%;
+    border: 1px solid #E42032;
+    bottom: 0px;
+    content: "";
+    left: 0;
+    position: absolute;
+    width: 100%;
 }
 
-.stick .main-menu ul.nav>li>a:hover {
-  color: #fff;
+.stick .main-menu ul.nav > li > a:hover {
+    color: #E42032;
 }
 
 .stick .main-menu ul.navbar-nav li.active a {
-  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  color: #fff;
-  position: relative;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #2a166f;
+    position: relative;
 }
 
-.stick .mainmenu ul#nav>li:hover>a, .stick .mainmenu ul#nav li .mega-menu, .stick .mainmenu ul#nav li ul.sub-menu {
-  background-color: #f5f5f5;
-  color: #fff;
-  outline: medium none;
+.stick .mainmenu ul#nav > li:hover > a, .stick .mainmenu ul#nav li .mega-menu, .stick .mainmenu ul#nav li ul.sub-menu {
+    background-color: #f5f5f5;
+    color: #E42032;
+    outline: medium none;
 }
 
-.stick .mainmenu ul#nav li:hover ul.sub-menu li a:hover, .mainmenu ul#nav li .mega-menu span>a:hover, .stick .mainmenu ul#nav li .mega-menu-shop a.mega-menu-title:hover {
-  color: #fff;
+.stick .mainmenu ul#nav li:hover ul.sub-menu li a:hover, .mainmenu ul#nav li .mega-menu span > a:hover, .stick .mainmenu ul#nav li .mega-menu-shop a.mega-menu-title:hover {
+    color: #E42032;
 }
 
 .stick .logo {
@@ -454,7 +455,7 @@ div#preloader {
 }
 
 .stick .main-menu ul.nav>li>a {
-  color: #fff;
+  color: #E42032;
   line-height: 22px;
   padding: 24px 0px;
   text-transform: capitalize;
@@ -490,7 +491,7 @@ div#preloader {
 }
 
 .single-well ul li i {
-  color: #3EC1D5;
+  color: #E42032;
   padding-right: 10px;
   font-size: 12px;
 }
@@ -522,7 +523,7 @@ div#preloader {
 }
 
 .services-details:hover h4, .services-details:hover .services-icon {
-  color: #3EC1D5;
+  color: #E42032;
 }
 
 .row.second-row {
@@ -557,10 +558,10 @@ div#preloader {
 }
 
 .test-overly {
-  background: rgba(0, 0, 0, 0.80);
-  position: absolute;
-  width: 100%;
-  height: 100%;
+    background: #2a166f; /*rgba(0, 0, 0, 0.80);*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .progress-h4 {
@@ -622,7 +623,7 @@ div#preloader {
 }
 
 .faq-details h4.check-title a.active, .faq-details a.active span.acc-icons::before {
-  color: #3EC1D5;
+  color: #E42032;
 }
 
 .faq-details a.active span.acc-icons::before {
@@ -688,7 +689,7 @@ div#preloader {
 
 .tab-menu ul li.active a, .tab-menu ul li.hover a, .tab-menu ul li.focus a {
   border-bottom: 1px solid #fff;
-  color: #3EC1D5 !important;
+  color: #E42032 !important;
 }
 
 .tab-menu .nav-tabs {
@@ -783,7 +784,7 @@ div#preloader {
 }
 
 .suscribe-input button {
-  background: #3ec1d5 none repeat scroll 0 0;
+  background: #E42032 none repeat scroll 0 0;
   border: medium none;
   border-radius: 0 20px 20px 0;
   color: #fff;
@@ -796,7 +797,7 @@ div#preloader {
 
 .suscribe-input button:hover {
   background: #fff none repeat scroll 0 0;
-  color: #3ec1d5;
+  color: #E42032;
 }
 
 /*----------------------------------------
@@ -881,7 +882,7 @@ div#preloader {
 }
 
 .email-news .email_button>button:hover {
-  background: #3EC1D5;
+  background: #E42032;
   border: 1px solid #fff;
   color: #fff;
 }
@@ -891,7 +892,7 @@ div#preloader {
 }
 
 .team-left-icon ul li a:hover {
-  color: #3EC1D5;
+  color: #E42032;
   background: #fff;
   border: 2px solid #fff;
 }
@@ -929,17 +930,17 @@ div#preloader {
   display: block;
 }
 
-.team-img>a::after {
-  background: rgba(0, 0, 0, 0.70);
-  bottom: 0;
-  content: "";
-  height: 100%;
-  left: 0;
-  position: absolute;
-  transition: all 0.5s ease 0s;
-  width: 100%;
-  opacity: 0;
-}
+    .team-img > a::after {
+        background: #2a166f;/*rgba(0, 0, 0, 0.70);*/
+        bottom: 0;
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        transition: all 0.5s ease 0s;
+        width: 100%;
+        opacity: 0;
+    }
 
 .team-social-icon {
   left: 50%;
@@ -968,8 +969,8 @@ div#preloader {
 
 .team-social-icon ul li a:hover {
   color: #fff;
-  border: 1px solid #3EC1D5;
-  background: #3EC1D5;
+  border: 1px solid #E42032;
+  background: #E42032;
 }
 
 .team-content {
@@ -1015,7 +1016,7 @@ div#preloader {
 }
 
 .work-left-text {
-  background: #3EC1D5 none repeat scroll 0 0;
+  background: #E42032 none repeat scroll 0 0;
 }
 
 .work-left-text {
@@ -1023,15 +1024,15 @@ div#preloader {
 }
 
 .work-right-text {
-  background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
-  float: right;
-  height: 100%;
-  overflow: hidden;
-  padding: 71px 0;
-  width: 50%;
-  position: absolute;
-  right: 0;
-  top: 0;
+    background: #2a166f; /*rgba(0, 0, 0, 0.8) none repeat scroll 0 0;*/
+    float: right;
+    height: 100%;
+    overflow: hidden;
+    padding: 71px 0;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .work-right-text h2 {
@@ -1097,8 +1098,8 @@ div#preloader {
 }
 
 .project-menu li a.active, .project-menu li a:hover {
-  border-color: #3EC1D5;
-  background: #3EC1D5;
+  border-color: #E42032;
+  background: #E42032;
   color: #fff;
   text-decoration: none;
 }
@@ -1154,7 +1155,7 @@ div#preloader {
 }
 
 .add-actions {
-  background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+  background: /*rgba(0, 0, 0, 0.6)*/#2a166f none repeat scroll 0 0;
   bottom: 30px;
   display: block;
   height: 100%;
@@ -1267,12 +1268,12 @@ div#preloader {
   position: absolute;
   right: 50px;
   top: 12px;
-  color: #3EC1D5;
+  color: #E42032;
 }
 
 .pri_table_list button {
-  background: #444 none repeat scroll 0 0;
-  border: 1px solid #444;
+  background: #2a166f none repeat scroll 0 0;
+  border: 1px solid #2a166f;
   color: #fff;
   margin-bottom: 25px;
   padding: 10px 35px;
@@ -1304,7 +1305,7 @@ div#preloader {
 }
 
 .saleon {
-  background: #3EC1D5 none repeat scroll 0 0;
+  background: #E42032 none repeat scroll 0 0;
   color: #fff;
   font-size: 13px;
   font-weight: 700;
@@ -1333,15 +1334,15 @@ div#preloader {
 }
 
 .active>button {
-  background: #3EC1D5 none repeat scroll 0 0;
-  border: 1px solid #3EC1D5;
+  background: #E42032 none repeat scroll 0 0;
+  border: 1px solid #E42032;
   color: #fff;
   transition: 0.4s;
 }
 
 .active>button:hover {
-  background: #333 none repeat scroll 0 0;
-  border: 1px solid #333;
+  background: #2a166f none repeat scroll 0 0;
+  border: 1px solid #2a166f;
   color: #fff;
   transition: 0.4s;
 }
@@ -1364,13 +1365,13 @@ div#preloader {
 }
 
 .testi-overly {
-  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: -1;
+    background: /*rgba(0, 0, 0, 0.7) none repeat scroll 0 0*/ #2a166f;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
 }
 
 .quate {
@@ -1442,7 +1443,7 @@ div#preloader {
 }
 
 .testimonial-carousel.owl-carousel.owl-theme .owl-controls .owl-dots div.owl-dot.active span {
-  background: #3EC1D5;
+  background: #E42032;
 }
 
 .testi-text.text-center>h6 {
@@ -1458,7 +1459,7 @@ div#preloader {
 }
 
 .guest-rev>a {
-  color: #3EC1D5;
+  color: #E42032;
   font-size: 14px;
 }
 
@@ -1571,7 +1572,7 @@ div#preloader {
 }
 
 .single-blog .ready-btn:hover {
-  border: 1px solid #3EC1D5;
+  border: 1px solid #E42032;
   color: #fff;
 }
 
@@ -1580,7 +1581,7 @@ div#preloader {
 --------------------------------*/
 
 .suscribe-area {
-  background: #3EC1D5 none repeat scroll 0 0;
+  background: #E42032 none repeat scroll 0 0;
   padding: 30px 0;
 }
 
@@ -1602,7 +1603,7 @@ div#preloader {
 .sus-btn {
   background: #fff none repeat scroll 0 0;
   border: 2px solid #fff;
-  color: #3EC1D5;
+  color: #E42032;
   display: inline-block;
   font-size: 16px;
   font-weight: 700;
@@ -1614,7 +1615,7 @@ div#preloader {
 }
 
 .sus-btn:hover {
-  background: #3EC1D5 none repeat scroll 0 0;
+  background: #E42032 none repeat scroll 0 0;
   border: 2px solid #fff;
   color: #fff;
 }
@@ -1674,13 +1675,13 @@ div#preloader {
 
 .contact-form button[type=submit]:hover {
   color: #fff;
-  border: 1px solid #3EC1D5;
-  background: #3EC1D5;
+  border: 1px solid #E42032;
+  background: #E42032;
 }
 
 .contact-form  #sendmessage {
-  color: #3EC1D5;
-  border: 1px solid #3EC1D5;
+  color: #E42032;
+  border: 1px solid #E42032;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1770,7 +1771,7 @@ div#preloader {
 }
 
 .footer-logo h2 span {
-  color: #3ec1d5;
+  color: #E42032;
 }
 
 .footer-icons ul li {
@@ -1801,7 +1802,7 @@ div#preloader {
 }
 
 .footer-contacts p span {
-  color: #3EC1D5;
+  color: #E42032;
   font-weight: 700;
 }
 
@@ -1815,8 +1816,8 @@ div#preloader {
 }
 
 .popular-tag ul li a:hover, .footer-icons ul li a:hover {
-  background: #3EC1D5;
-  border: 1px solid #3EC1D5;
+  background: #E42032;
+  border: 1px solid #E42032;
   color: #fff;
 }
 
@@ -1844,7 +1845,7 @@ div#preloader {
 
 .copyright-text a:hover {
   text-decoration: underline;
-  color: #3EC1D5;
+  color: #E42032;
 }
 
 .copyright-text a {
@@ -1857,7 +1858,7 @@ div#preloader {
 }
 
 .copyright a, .credits a {
-  color: #3EC1D5;
+  color: #E42032;
 }
 
 .credits {
@@ -1960,7 +1961,7 @@ div#preloader {
 }
 
 .search-option button:hover {
-  color: #3ec1d5;
+  color: #E42032;
 }
 
 .left-blog h4 {
@@ -2020,8 +2021,8 @@ div#preloader {
 
 .ready-btn:hover {
   color: #fff;
-  background: #3EC1D5;
-  border: 1px solid #3EC1D5;
+  background: #E42032;
+  border: 1px solid #E42032;
   text-decoration: none;
 }
 
@@ -2039,7 +2040,7 @@ div#preloader {
 }
 
 .pst-content p a:hover, .left-blog ul li a:hover {
-  color: #3EC1D5;
+  color: #E42032;
 }
 
 .blog-page .single-blog {
@@ -2052,7 +2053,7 @@ div#preloader {
 }
 
 .header-bottom h1, .header-bottom h2 {
-  color: #fff;
+  color: #E42032;
 }
 
 .blog-tags {
@@ -2110,7 +2111,7 @@ div#preloader {
 }
 
 .entry-meta span a:hover {
-  color: #3EC1D5;
+  color: #E42032;
 }
 
 .post-information .entry-meta {
@@ -2132,7 +2133,7 @@ div#preloader {
 
 .entry-content blockquote {
   background: #fff none repeat scroll 0 0;
-  border-left: 5px solid #3EC1D5;
+  border-left: 5px solid #E42032;
   font-size: 17.5px;
   font-style: italic;
   margin: 0 0 20px 40px;
@@ -2140,8 +2141,8 @@ div#preloader {
 }
 
 .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
-  background-color: #3EC1D5;
-  border-color: #3EC1D5;
+  background-color: #E42032;
+  border-color: #E42032;
   color: #fff;
   cursor: default;
   z-index: 3;
@@ -2181,8 +2182,8 @@ div#preloader {
 }
 
 .sharing-icon a:hover {
-  color: #3EC1D5;
-  border: 1px solid #3EC1D5;
+  color: #E42032;
+  border: 1px solid #E42032;
 }
 
 .single-blog .author-avatar {
@@ -2311,7 +2312,7 @@ span.email-notes {
 
 .comment-respond input[type="submit"] {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 1px solid #3ec1d5;
+  border: 1px solid #E42032;
   border-radius: 20px;
   box-shadow: none;
   color: #444;
@@ -2333,13 +2334,13 @@ span.email-notes {
 }
 
 .comments-content-wrap span a:hover {
-  color: #3EC1D5;
+  color: #E42032;
 }
 
 .comment-respond input[type=submit]:hover {
-  border: 1px solid #3EC1D5;
+  border: 1px solid #E42032;
   color: #fff;
-  background: #3EC1D5;
+  background: #E42032;
 }
 
 .single-blog .blog-pagination {
