@@ -505,8 +505,12 @@ div#preloader {
 /* 4.Services Area
 /*--------------------------------*/
 
+.services-area {
+    background-color: #2a166f;
+}
+
 .services-icon {
-  color: #444;
+  color: #fff;
   display: inline-block;
   font-size: 36px;
   line-height: 36px;
@@ -515,6 +519,7 @@ div#preloader {
 
 .section-headline.services-head>h2 {
   margin-bottom: 25px;
+  color: #fff;
 }
 
 .services-details {
@@ -531,11 +536,11 @@ div#preloader {
 }
 
 .section-head>h2 {
-  color: #333;
+  color: #fff;
 }
 
 .single-services>h4 {
-  color: #444;
+  color: #fff;
   font-size: 24px;
   font-weight: 500;
 }
@@ -1185,6 +1190,10 @@ div#preloader {
 }
 
 .project-dec h4:hover {
+  color: #fff;
+}
+
+.project-dec h3:hover {
   color: #fff;
 }
 
