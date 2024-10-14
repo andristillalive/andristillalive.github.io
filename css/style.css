@@ -2349,6 +2349,14 @@ span.email-notes {
   padding-top: 30px;
 }
 
+/*Edit Custom*/
+.nation {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+
+
 /*----------------------------------------
  .End CSS
 ----------------------------------------*/
