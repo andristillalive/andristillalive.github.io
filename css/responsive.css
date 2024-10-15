@@ -121,7 +121,7 @@
 @media (max-width: 767px) {
 
   .header-area {
-    height: 60px !important;
+    height: 70px !important;
     /*background: #000;*/
   }
   .navbar-header a.navbar-brand, .stick .navbar-header a.navbar-brand {
