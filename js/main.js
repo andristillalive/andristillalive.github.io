@@ -18,7 +18,7 @@
   var pos = s.position();
   $(window).on('scroll', function() {
     var windowpos = $(window).scrollTop() > 300;
-    if (windowpos > pos.top) {
+    if (windowpos >= pos.top) {
       s.addClass("stick");
     } else {
       s.removeClass("stick");
@@ -212,6 +212,211 @@
   /*---------------------
    Testimonial carousel
   ---------------------*/
-  //let
+  let jsoncontent = {
+    "english": {
+      "history": "Di awal tahun 2016, pesatnya perkembangan Teknologi Informasi menjadi isu hangat di dunia. Peluang besar itu juga membawa VMG untuk ikut terjun dalam bisnis IT.Berdasarkan pengalaman, training dan pengetahuan yang kami miliki maka tahun 2017 VMG secara resmi menjadi perusahaan IT konsultan dan IT Service Delivery.",
+      "address": "Maple Park Apartement, Lt UG. R 205 Jl HBR Motik No 2, Sunter Agung, Tanjung Priok Jakarta Utara 14350",
+      "telp": "+6216543708",
+      "email": "vajiro@vmg-vajracipta.com",
+      "instagram": "@vajiro.mulia.gemilang",
+      "jam_op": "Senin-Jumat 09.00-17.00",
+      "products": {
+        "hardware": [
+          "Personal",
+          "Computer",
+          "Printers",
+          "Servers",
+          "Notebook / Ipad"
+        ],
+        "network": [
+          "CISCO",
+          "3COM",
+          "Cabling,Panduit,Belden,Systimax, dll"
+        ],
+        "software": [
+          "Microsoft",
+          "Antivirus, dll"
+        ],
+        "outsourcing": [
+          "Perusahaan tentunya membutuhkan tenaga ahli dalam bidang IT yang dapat menjamin operasional dari suatu perusahaan dapat berjalan dengan baik",
+          "Isu yang sering terjadi adalah Perusahaan/klien menemui kesulitan untuk mengurus karyawan, karena lebih focus dalam mengembangkan core business perusahaan,",
+          "Solusi : Adanya pihak ketiga/vendor (VMG) untuk membantu perusahaan/klien",
+          {
+            "keuntungan_header": "Keuntungan menggunakan pihak ketiga adalah.",
+            "keuntungan": [
+              "Membantu perusahaan menyelesaikan masalah dalam bidang IT Services,",
+              "Pekerja mengikuti sistem dan budaya perusahaan,",
+              "Dibantu dengan software untuk mengukur kinerja karyawan / KPI,",
+              "Perusahaan tidak perlu pusing memikirkan tunjangan, karir dan Pelatihan karyawan,"
+            ]
+          },
+              ""
+            ]
+          },
+      "faq": [
+        {
+          "ask": "PT Vajiro Mulia Gemilang  (VMG) Perushaan Apa sih?",
+          "answer": "VMG adalah Perusahaan yang bergerak di Bidang IT, kami memiliki divisi Hardware, Software dan Outsourcing."
+        },
+        {
+          "ask": "PT Vajiro Mulia Gemilang bisa mensupport Apa saja?",
+          "answer": "Kami menyediakan segala jenis kebutuhan IT Perusahaan. Mulai dari maintenance ala-alat IT, Anti virus, Windows sampai dengan Helpdesk IT, teknikal Support dan develop aplikasi."
+        },
+        {
+          "ask": "Apakah VMG bisa mensupport selain IT?",
+          "answer": "Selain IT kami juga mulai merambah ke bidang lain, Seperti konsultan psikologi. Dengan nama Vajracipta Nirwana kami mengadakan pelatihan dan melakukan terapi psikologi untuk Perusahaan dan perorangan"
+        }
+      ]
+    },
+    "indonesia": {
+      "history": "Di awal tahun 2016, pesatnya perkembangan Teknologi Informasi menjadi isu hangat di dunia. Peluang besar itu juga membawa VMG untuk ikut terjun dalam bisnis IT.Berdasarkan pengalaman, training dan pengetahuan yang kami miliki maka tahun 2017 VMG secara resmi menjadi perusahaan IT konsultan dan IT Service Delivery.",
+      "address": "Maple Park Apartement, Lt UG. R 205 Jl HBR Motik No 2, Sunter Agung, Tanjung Priok Jakarta Utara 14350",
+      "telp": "+6216543708",
+      "email": "vajiro@vmg-vajracipta.com",
+      "instagram": "@vajiro.mulia.gemilang",
+      "jam_op": "Senin-Jumat 09.00-17.00",
+      "products": {
+        "hardware": [
+          "Personal",
+          "Computer",
+          "Printers",
+          "Servers",
+          "Notebook / Ipad"
+        ],
+        "network": [
+          "CISCO",
+          "3COM",
+          "Cabling,Panduit,Belden,Systimax, dll"
+        ],
+        "software": [
+          "Microsoft",
+          "Antivirus, dll"
+        ],
+        "outsourcing": [
+          "Perusahaan tentunya membutuhkan tenaga ahli dalam bidang IT yang dapat menjamin operasional dari suatu perusahaan dapat berjalan dengan baik",
+          "Isu yang sering terjadi adalah Perusahaan/klien menemui kesulitan untuk mengurus karyawan, karena lebih focus dalam mengembangkan core business perusahaan,",
+          "Solusi : Adanya pihak ketiga/vendor (VMG) untuk membantu perusahaan/klien",
+          {
+            "keuntungan_header": "Keuntungan menggunakan pihak ketiga adalah.",
+            "keuntungan": [
+              "Membantu perusahaan menyelesaikan masalah dalam bidang IT Services,",
+              "Pekerja mengikuti sistem dan budaya perusahaan,",
+              "Dibantu dengan software untuk mengukur kinerja karyawan / KPI,",
+              "Perusahaan tidak perlu pusing memikirkan tunjangan, karir dan Pelatihan karyawan,"
+            ]
+          },
+              ""
+            ]
+          },
+      "faq": [
+        {
+          "ask": "PT Vajiro Mulia Gemilang  (VMG) Perushaan Apa sih?",
+          "answer": "VMG adalah Perusahaan yang bergerak di Bidang IT, kami memiliki divisi Hardware, Software dan Outsourcing."
+        },
+        {
+          "ask": "PT Vajiro Mulia Gemilang bisa mensupport Apa saja?",
+          "answer": "Kami menyediakan segala jenis kebutuhan IT Perusahaan. Mulai dari maintenance ala-alat IT, Anti virus, Windows sampai dengan Helpdesk IT, teknikal Support dan develop aplikasi."
+        },
+        {
+          "ask": "Apakah VMG bisa mensupport selain IT?",
+          "answer": "Selain IT kami juga mulai merambah ke bidang lain, Seperti konsultan psikologi. Dengan nama Vajracipta Nirwana kami mengadakan pelatihan dan melakukan terapi psikologi untuk Perusahaan dan perorangan"
+        }
+      ]
+    }
+  }
+
+  /*Region ID Html*/
+  let ask_content = $('#accordion');
+
+  /*Region Ganti Bahasa*/
+  let nation = $('#nation');
+  let bahasa = $('#indonesia');
+  bahasa.on('click', function(){
+    nation.find('a > img').attr('src','img/indonesia.png');
+    let indonesia = jsoncontent.indonesia;
+
+    let history = indonesia.history;
+    let address = indonesia.address;
+    let telp = indonesia.telp;
+    let email = indonesia.email;
+    let instagram = indonesia.instagram;
+    let jam_op = indonesia.jam_op;
+
+    let faqs = indonesia.faq;
+    let faqs_html = '';
+    faqs.forEach(function(f, index){
+      const ask = f.ask;
+      const answer = f.answer;
+      let no = index + 1;
+      const collapsible = (index == 0) ? 'in' : '';
+      const active = (index == 0) ? 'class="active"' : '';
+
+      faqs_html += `<!--Panel Default-->
+      <div class="panel panel-default">
+          <div class="panel-heading">
+              <h4 class="check-title">
+                  <a data-toggle="collapse" ${active} data-parent="#accordion" href="#check${no}">
+                      <span class="acc-icons"></span>${ask}
+                  </a>
+              </h4>
+          </div>
+          <div id="check${no}" class="panel-collapse collapse ${collapsible}">
+              <div class="panel-body">
+                  <p>
+                      ${answer}
+                  </p>
+              </div>
+          </div>
+      </div>
+      <!--End Panel Default-->`
+    });
+
+    ask_content.html(faqs_html);
+
+  })
+
+  let language = $('#uk');
+  language.on('click', function(){
+    nation.find('a > img').attr('src','img/united-kingdom.png');
+    let uk = jsoncontent.uk;
+
+    let history = uk.history;
+    let address = uk.address;
+    let telp = uk.telp;
+    let email = uk.email;
+    let instagram = uk.instagram;
+    let jam_op = uk.jam_op;
+
+    let faqs = indonesia.faq;
+    let faqs_html = '';
+    faqs.forEach(function(f, index){
+      const ask = f.ask;
+      const answer = f.answer;
+      let no = index + 1;
+      const collapsible = (index == 0) ? 'in' : '';
+      const active = (index == 0) ? 'class="active"' : '';
+
+      faqs_html += `<!--Panel Default-->
+      <div class="panel panel-default">
+          <div class="panel-heading">
+              <h4 class="check-title">
+                  <a data-toggle="collapse" ${active} data-parent="#accordion" href="#check${no}">
+                      <span class="acc-icons"></span>${ask}
+                  </a>
+              </h4>
+          </div>
+          <div id="check${no}" class="panel-collapse collapse ${collapsible}">
+              <div class="panel-body">
+                  <p>
+                      ${answer}
+                  </p>
+              </div>
+          </div>
+      </div>
+      <!--End Panel Default-->`
+    });
+
+    ask_content.html(faqs_html);
+  })
 
 })(jQuery);

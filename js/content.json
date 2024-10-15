@@ -1,6 +1,58 @@
 {
   "english": {
-
+    "history": "Di awal tahun 2016, pesatnya perkembangan Teknologi Informasi menjadi isu hangat di dunia. Peluang besar itu juga membawa VMG untuk ikut terjun dalam bisnis IT.Berdasarkan pengalaman, training dan pengetahuan yang kami miliki maka tahun 2017 VMG secara resmi menjadi perusahaan IT konsultan dan IT Service Delivery.",
+    "address": "Maple Park Apartement, Lt UG. R 205 Jl HBR Motik No 2, Sunter Agung, Tanjung Priok Jakarta Utara 14350",
+    "telp": "+6216543708",
+    "email": "vajiro@vmg-vajracipta.com",
+    "instagram": "@vajiro.mulia.gemilang",
+    "jam_op": "Senin-Jumat 09.00-17.00",
+    "products": {
+      "hardware": [
+        "Personal",
+        "Computer",
+        "Printers",
+        "Servers",
+        "Notebook / Ipad"
+      ],
+      "network": [
+        "CISCO",
+        "3COM",
+        "Cabling,Panduit,Belden,Systimax, dll"
+      ],
+      "software": [
+        "Microsoft",
+        "Antivirus, dll"
+      ],
+      "outsourcing": [
+        "Perusahaan tentunya membutuhkan tenaga ahli dalam bidang IT yang dapat menjamin operasional dari suatu perusahaan dapat berjalan dengan baik",
+        "Isu yang sering terjadi adalah Perusahaan/klien menemui kesulitan untuk mengurus karyawan, karena lebih focus dalam mengembangkan core business perusahaan,",
+        "Solusi : Adanya pihak ketiga/vendor (VMG) untuk membantu perusahaan/klien",
+        {
+          "keuntungan_header": "Keuntungan menggunakan pihak ketiga adalah.",
+          "keuntungan": [
+            "Membantu perusahaan menyelesaikan masalah dalam bidang IT Services,",
+            "Pekerja mengikuti sistem dan budaya perusahaan,",
+            "Dibantu dengan software untuk mengukur kinerja karyawan / KPI,",
+            "Perusahaan tidak perlu pusing memikirkan tunjangan, karir dan Pelatihan karyawan,"
+          ]
+        },
+            ""
+          ]
+        },
+    "faq": [
+      {
+        "ask": "PT Vajiro Mulia Gemilang  (VMG) Perushaan Apa sih?",
+        "answer": "VMG adalah Perusahaan yang bergerak di Bidang IT, kami memiliki divisi Hardware, Software dan Outsourcing."
+      },
+      {
+        "ask": "PT Vajiro Mulia Gemilang bisa mensupport Apa saja?",
+        "answer": "Kami menyediakan segala jenis kebutuhan IT Perusahaan. Mulai dari maintenance ala-alat IT, Anti virus, Windows sampai dengan Helpdesk IT, teknikal Support dan develop aplikasi."
+      },
+      {
+        "ask": "Apakah VMG bisa mensupport selain IT?",
+        "answer": "Selain IT kami juga mulai merambah ke bidang lain, Seperti konsultan psikologi. Dengan nama Vajracipta Nirwana kami mengadakan pelatihan dan melakukan terapi psikologi untuk Perusahaan dan perorangan"
+      }
+    ]
   },
   "indonesia": {
     "history": "Di awal tahun 2016, pesatnya perkembangan Teknologi Informasi menjadi isu hangat di dunia. Peluang besar itu juga membawa VMG untuk ikut terjun dalam bisnis IT.Berdasarkan pengalaman, training dan pengetahuan yang kami miliki maka tahun 2017 VMG secara resmi menjadi perusahaan IT konsultan dan IT Service Delivery.",
