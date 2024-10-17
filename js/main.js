@@ -259,7 +259,7 @@
         },
         {
           "ask": "Can VMG support other than IT?",
-          "answer": "Selain IT kami juga mulai merambah ke bidang lain, Seperti konsultan psikologi. Dengan nama besides IT, we are also starting to expand into other fields, such as psychology consulting. Under the name Vajracipta Nirwana. We provide training and provide psychological therapy for companies and individuals. Nirwana kami mengadakan pelatihan dan melakukan terapi psikologi untuk Perusahaan dan perorangan"
+          "answer": "besides IT, we are also starting to expand into other fields, such as psychology consulting. Under the name Vajracipta Nirwana. We provide training and provide psychological therapy for companies and individuals."
         }
       ]
     },
