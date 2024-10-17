@@ -9,7 +9,7 @@
     pre_loader.fadeOut('slow', function() {
       $(this).remove();
     });
-    getInstagramFeed("vajiro.mulia.gemilang", "#instagramfeed", 12);
+    //getInstagramFeed("vajiro.mulia.gemilang", "#instagramfeed", 12);
   });
 
   /*---------------------
@@ -328,6 +328,10 @@
 
   /*Region ID Html*/
   let ask_content = $('#accordion');
+  let hardware_list_content = $('#hardware-list');
+  let network_list_content = $('#network-list');
+  let software_list_content = $('#software-list');
+  let alihdaya_list_content = $('#alihdaya-list');
 
   /*Region Ganti Bahasa*/
   let nation = $('#nation');
@@ -374,12 +378,47 @@
 
     ask_content.html(faqs_html);
 
+    let hdl = indonesia.products.hardware;
+    let netl = indonesia.products.network;
+    let sofl = indonesia.products.software;
+    let aldl = indonesia.products.outsourcing;
+
+    let hdl_html = '';
+    let netl_html = '';
+    let sofl_html = '';
+    let aldl_html = '';
+
+    hdl.forEach(function(f, index){
+      hdl_html += `<li>${f}</li>`;
+    });
+
+    netl.forEach(function(f, index){
+      netl_html += `<li>${f}</li>`;
+    });
+
+    sofl.forEach(function(f, index){
+      sofl_html += `<li>${f}</li>`;
+    });
+
+    aldl.forEach(function(f, index){
+      if(index == f.length - 1){
+        aldl_html += aldl.keuntungan_header
+      }
+      else{
+        aldl_html += `<li>${f}</li>`;
+      }
+    });
+
+    hardware_list_content.html(hdl_html);
+    network_list_content.html(netl_html);
+    software_list_content.html(sofl_html);
+    alihdaya_list_content.html(aldl_html);
   })
 
   let language = $('#uk');
   language.on('click', function(){
     nation.find('a > img').attr('src','img/united-kingdom.png');
-    let uk = jsoncontent.uk;
+    let uk = jsoncontent.english;
 
     let history = uk.history;
     let address = uk.address;
@@ -388,7 +427,7 @@
     let instagram = uk.instagram;
     let jam_op = uk.jam_op;
 
-    let faqs = indonesia.faq;
+    let faqs = uk.faq;
     let faqs_html = '';
     faqs.forEach(function(f, index){
       const ask = f.ask;
@@ -420,8 +459,86 @@
     ask_content.html(faqs_html);
   })
 
-})(jQuery);
+  $(document).ready(function(){
+    nation.find('a > img').attr('src','img/indonesia.png');
+    let indonesia = jsoncontent.indonesia;
 
+    let history = indonesia.history;
+    let address = indonesia.address;
+    let telp = indonesia.telp;
+    let email = indonesia.email;
+    let instagram = indonesia.instagram;
+    let jam_op = indonesia.jam_op;
+
+    let faqs = indonesia.faq;
+    let faqs_html = '';
+    faqs.forEach(function(f, index){
+      const ask = f.ask;
+      const answer = f.answer;
+      let no = index + 1;
+      const collapsible = (index == 0) ? 'in' : '';
+      const active = (index == 0) ? 'class="active"' : '';
+
+      faqs_html += `<!--Panel Default-->
+      <div class="panel panel-default">
+          <div class="panel-heading">
+              <h4 class="check-title">
+                  <a data-toggle="collapse" ${active} data-parent="#accordion" href="#check${no}">
+                      <span class="acc-icons"></span>${ask}
+                  </a>
+              </h4>
+          </div>
+          <div id="check${no}" class="panel-collapse collapse ${collapsible}">
+              <div class="panel-body">
+                  <p>
+                      ${answer}
+                  </p>
+              </div>
+          </div>
+      </div>
+      <!--End Panel Default-->`
+    });
+
+    ask_content.html(faqs_html);
+
+    let hdl = indonesia.products.hardware;
+    let netl = indonesia.products.network;
+    let sofl = indonesia.products.software;
+    let aldl = indonesia.products.outsourcing;
+
+    let hdl_html = '';
+    let netl_html = '';
+    let sofl_html = '';
+    let aldl_html = '';
+
+    hdl.forEach(function(f, index){
+      hdl_html += `<li>${f}</li>`;
+    });
+
+    netl.forEach(function(f, index){
+      netl_html += `<li>${f}</li>`;
+    });
+
+    sofl.forEach(function(f, index){
+      sofl_html += `<li>${f}</li>`;
+    });
+
+    aldl.forEach(function(f, index){
+      if(index == f.length - 1){
+        aldl_html += aldl.keuntungan_header
+      }
+      else{
+        aldl_html += `<li>${f}</li>`;
+      }
+    });
+
+    hardware_list_content.html(hdl_html);
+    network_list_content.html(netl_html);
+    software_list_content.html(sofl_html);
+    alihdaya_list_content.html(aldl_html);
+});
+
+})(jQuery);
 
 function getInstagramFeed(username, container, items) {
     if (!$(container).length)
@@ -456,14 +573,14 @@ function getInstagramFeed(username, container, items) {
                         type = " class='series'";
                     var caption = imgs[i].node.edge_media_to_caption.edges[0].node.text;
                     caption = caption.replace(/#/g, " #");
-                    caption = caption.replace(/(•\n)|#(.+?)(?=[\s.,:,]|$)/g, "");
+                    caption = caption.replace(/(ï¿½\n)|#(.+?)(?=[\s.,:,]|$)/g, "");
                     caption = caption.replace(/\n/g, "<br/>");
                     caption = caption.replace(/[\s]{2,}/g, " ");
                     caption = caption.trim();
                     if (caption)
                         caption = "<span>" + caption + "</span>\n";
                     html += "<a href='" + url + "' target='_blank'" + type + ">";
-                    html += "<img src='" + imgs[i].node.thumbnail_resources[2].src + "' alt='" + username + " instagram image " + i + "' />";
+                    html += "<img src='" + imgs[i].node.thumbnail_resources[2].src + "' alt='" + username + " instagram image " + i + "' crossOrigin='anonymous' />";
                     html += caption;
                     html += "</a>";
                 }
@@ -472,7 +589,7 @@ function getInstagramFeed(username, container, items) {
             $(container).html(html);
         }
     }
-    xmlhttp.onreadystatechange = handleStateChange; // Implemented elsewhere.
+    //xmlhttp.onreadystatechange = handleStateChange; // Implemented elsewhere.
     xmlhttp.open("GET", "https://www.instagram.com/" + username + "/", true);
     xmlhttp.send();
 }

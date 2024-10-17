@@ -550,6 +550,11 @@ div#preloader {
   font-size: 14px;
 }
 
+.single-services>ul>li {
+    color: #fff;
+    font-size: 18px;
+  }
+
 
 @keyframes reveal {
     from {
