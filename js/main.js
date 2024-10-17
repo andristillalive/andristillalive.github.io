@@ -223,49 +223,43 @@
       "jam_op": "Senin-Jumat 09.00-17.00",
       "products": {
         "hardware": [
-          "Personal",
-          "Computer",
-          "Printers",
-          "Servers",
-          "Notebook / Ipad"
+              "Provide IT Hardware Services: Personal Computer, Printers, Servers, Notebook / Ipad, etc"
         ],
         "network": [
-          "CISCO",
-          "3COM",
-          "Cabling,Panduit,Belden,Systimax, dll"
+            "Provide IT Network Services: CISCO, 3COM, Cabling, Panduit, Belden, Systimax, etc"
         ],
         "software": [
-          "Microsoft",
-          "Antivirus, dll"
+            "Provide IT Software Services: Microsoft, Antivirus, etc"
         ],
-        "outsourcing": [
-          "Perusahaan tentunya membutuhkan tenaga ahli dalam bidang IT yang dapat menjamin operasional dari suatu perusahaan dapat berjalan dengan baik",
-          "Isu yang sering terjadi adalah Perusahaan/klien menemui kesulitan untuk mengurus karyawan, karena lebih focus dalam mengembangkan core business perusahaan,",
-          "Solusi : Adanya pihak ketiga/vendor (VMG) untuk membantu perusahaan/klien",
-          {
-            "keuntungan_header": "Keuntungan menggunakan pihak ketiga adalah.",
-            "keuntungan": [
-              "Membantu perusahaan menyelesaikan masalah dalam bidang IT Services,",
-              "Pekerja mengikuti sistem dan budaya perusahaan,",
-              "Dibantu dengan software untuk mengukur kinerja karyawan / KPI,",
-              "Perusahaan tidak perlu pusing memikirkan tunjangan, karir dan Pelatihan karyawan,"
-            ]
-          },
-              ""
+          "outsourcing": [
+            "The existence of a third party/vendor (VMG) to help with company/client problems expecially for IT Expert workers"
+          //"Perusahaan tentunya membutuhkan tenaga ahli dalam bidang IT yang dapat menjamin operasional dari suatu perusahaan dapat berjalan dengan baik",
+          //"Isu yang sering terjadi adalah Perusahaan/klien menemui kesulitan untuk mengurus karyawan, karena lebih focus dalam mengembangkan core business perusahaan,",
+          //"Solusi : Adanya pihak ketiga/vendor (VMG) untuk membantu perusahaan/klien",
+          //{
+          //  "keuntungan_header": "Keuntungan menggunakan pihak ketiga adalah.",
+          //  "keuntungan": [
+          //    "Membantu perusahaan menyelesaikan masalah dalam bidang IT Services,",
+          //    "Pekerja mengikuti sistem dan budaya perusahaan,",
+          //    "Dibantu dengan software untuk mengukur kinerja karyawan / KPI,",
+          //    "Perusahaan tidak perlu pusing memikirkan tunjangan, karir dan Pelatihan karyawan,"
+          //  ]
+          //},
+          //    ""
             ]
           },
       "faq": [
         {
-          "ask": "PT Vajiro Mulia Gemilang  (VMG) Perushaan Apa sih?",
-          "answer": "VMG adalah Perusahaan yang bergerak di Bidang IT, kami memiliki divisi Hardware, Software dan Outsourcing."
+          "ask": "What company is PT Vajiro Mulia Gemilang (VMG)?",
+          "answer": "VMG is a company that operating in the IT sector, we have Hardware, Software and Outsourcing divisions."
         },
         {
-          "ask": "PT Vajiro Mulia Gemilang bisa mensupport Apa saja?",
-          "answer": "Kami menyediakan segala jenis kebutuhan IT Perusahaan. Mulai dari maintenance ala-alat IT, Anti virus, Windows sampai dengan Helpdesk IT, teknikal Support dan develop aplikasi."
+          "ask": "What can PT Vajiro Mulia Gemilang support?",
+            "answer": "We provide all types of company IT needs. Starting from IT equipment maintenance, Anti-virus, Windows, IT Helpdesk, technical support and application development."
         },
         {
-          "ask": "Apakah VMG bisa mensupport selain IT?",
-          "answer": "Selain IT kami juga mulai merambah ke bidang lain, Seperti konsultan psikologi. Dengan nama Vajracipta Nirwana kami mengadakan pelatihan dan melakukan terapi psikologi untuk Perusahaan dan perorangan"
+          "ask": "Can VMG support other than IT?",
+          "answer": "Selain IT kami juga mulai merambah ke bidang lain, Seperti konsultan psikologi. Dengan nama besides IT, we are also starting to expand into other fields, such as psychology consulting. Under the name Vajracipta Nirwana. We provide training and provide psychological therapy for companies and individuals. Nirwana kami mengadakan pelatihan dan melakukan terapi psikologi untuk Perusahaan dan perorangan"
         }
       ]
     },
@@ -278,35 +272,29 @@
       "jam_op": "Senin-Jumat 09.00-17.00",
       "products": {
         "hardware": [
-          "Personal",
-          "Computer",
-          "Printers",
-          "Servers",
-          "Notebook / Ipad"
+          "Menyediakan Kebutuhan seperti: Personal Computer, Printers, Servers, Notebook / Ipad"
         ],
         "network": [
-          "CISCO",
-          "3COM",
-          "Cabling,Panduit,Belden,Systimax, dll"
+          "Menyediakan Kebutuhan atau Jasa seperti: CISCO, 3COM, Cabling, Panduit, Belden, Systimax, dll"
         ],
         "software": [
-          "Microsoft",
-          "Antivirus, dll"
+          "Menyediakan Kebutuhan seperti: Microsoft, Antivirus, dll"
         ],
-        "outsourcing": [
-          "Perusahaan tentunya membutuhkan tenaga ahli dalam bidang IT yang dapat menjamin operasional dari suatu perusahaan dapat berjalan dengan baik",
-          "Isu yang sering terjadi adalah Perusahaan/klien menemui kesulitan untuk mengurus karyawan, karena lebih focus dalam mengembangkan core business perusahaan,",
-          "Solusi : Adanya pihak ketiga/vendor (VMG) untuk membantu perusahaan/klien",
-          {
-            "keuntungan_header": "Keuntungan menggunakan pihak ketiga adalah.",
-            "keuntungan": [
-              "Membantu perusahaan menyelesaikan masalah dalam bidang IT Services,",
-              "Pekerja mengikuti sistem dan budaya perusahaan,",
-              "Dibantu dengan software untuk mengukur kinerja karyawan / KPI,",
-              "Perusahaan tidak perlu pusing memikirkan tunjangan, karir dan Pelatihan karyawan,"
-            ]
-          },
-              ""
+          "outsourcing": [
+              "Adanya pihak ketiga/vendor (VMG) untuk membantu masalah perusahaan/klien khususnya dalam bidang tenaga kerja ahli IT"
+          //"Perusahaan tentunya membutuhkan tenaga ahli dalam bidang IT yang dapat menjamin operasional dari suatu perusahaan dapat berjalan dengan baik",
+          //"Isu yang sering terjadi adalah Perusahaan/klien menemui kesulitan untuk mengurus karyawan, karena lebih focus dalam mengembangkan core business perusahaan,",
+          //"Solusi : Adanya pihak ketiga/vendor (VMG) untuk membantu perusahaan/klien",
+          //{
+          //  "keuntungan_header": "Keuntungan menggunakan pihak ketiga adalah.",
+          //  "keuntungan": [
+          //    "Membantu perusahaan menyelesaikan masalah dalam bidang IT Services,",
+          //    "Pekerja mengikuti sistem dan budaya perusahaan,",
+          //    "Dibantu dengan software untuk mengukur kinerja karyawan / KPI,",
+          //    "Perusahaan tidak perlu pusing memikirkan tunjangan, karir dan Pelatihan karyawan,"
+          //  ]
+          //},
+          //    ""
             ]
           },
       "faq": [
