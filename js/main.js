@@ -227,16 +227,16 @@
       "slider3" : "Helping Information Technology Solution for Your Business",
       "slider3_footer1":"See Services",
       "slider3_footer2":"Learn More",
-      "history": "Di awal tahun 2016, pesatnya perkembangan Teknologi Informasi menjadi isu hangat di dunia. <br/> Peluang besar itu juga membawa VMG untuk ikut terjun dalam bisnis IT. <br/> Berdasarkan pengalaman, training dan pengetahuan yang kami miliki maka tahun 2017 VMG secara resmi menjadi perusahaan IT konsultan dan IT Service Delivery.",
+      "history": "<p style='text-align: justify;text-indent: 30px;'>In the early 2016, the rapid of technology development becomes hot issue in the world, including here in Indonesia. This situation has made fast growth of the information technology for globalization, because of the improvement of all industries sector in Indonesia as shown by increasing number of new corporation or existing company which getting bigger, create Indonesia become interested market for computer manufacturing of all over the world.</p><p style='text-align: justify;text-indent: 30px;'> Considering the great opportunity in information technology business in Indonesia, VMG Group has striven to keep pace in that business since 2016. Therefore, we have built a strong business foundation for our company. After two years has been passed, information technology is still growing, even faster. So, we have always updated our knowledge and skill to perform well in IT business.</p><p style='text-align: justify;text-indent: 30px;'> Besides we have given training and development In the year of 2016, we created taylor made software for Fix Assets Management, which can assist our customer’s operational activity. While facing the future with confidence, we find some threat that will occur in the following years. We have to continuously prepare our selves to meet the challenges of the future. </p>",
       "address": "Maple Park Apartement, Lt UG. R 205 Jl HBR Motik No 2, Sunter Agung, Tanjung Priok Jakarta Utara 14350",
-      "quotes":["Produk dan layanan VMG harus berkontribusi pada keuntungan klien kami.",
-        "Biaya yang VMG tagihkan harus sesuai dengan kinerja yang dihasilkan.",
-        "Pertumbuhan VMG akan didasarkan pada proyek-proyek yang sedang dikerjakan<br />yang menguntungkan dan dapat dilaksanakan tepat waktu dan sesuai dengan harapan klien kami.",
-        "Staf dan karyawan VMG akan terus dilatih dalam teknologi saat ini (up to date)<br /> dengan target mendapatkan kepuasan kerja bagi VMG maupun klien."],
+      "quotes":["VMG products and services must contribute to the benefit of our clients.",
+        "The fees that VMG charges must be commensurate with the performance produced.",
+        "VMG's growth will be based on projects currently underway<br /> which is profitable and can be implemented on time and in accordance with our clients' expectations.",
+        "VMG staff and employees will continue to be trained in current technologies (up to date)<br /> with the target of achieving job satisfaction for both VMG and clients."],
       "telp": "+6216543708",
       "email": "vajiro@vmg-vajracipta.com",
       "instagram": "@vajiro.mulia.gemilang",
-      "jam_op": "Senin-Jumat 09.00-17.00",
+      "jam_op": "Monday-Friday 9.00 am until 5.00 pm ",
       "products": {
         "hardware": [
               "Provide IT Hardware Services: Personal Computer, Printers, Servers, Notebook / Ipad, etc"
@@ -264,37 +264,34 @@
           //    ""
             ]
           },
-      "faq": [
-        {
+      "faq1": {
           "ask": "What company is PT Vajiro Mulia Gemilang (VMG)?",
           "answer": "VMG is a company that operating in the IT sector, we have Hardware, Software and Outsourcing divisions."
         },
-        {
+      "faq2": {
           "ask": "What can PT Vajiro Mulia Gemilang support?",
             "answer": "We provide all types of company IT needs. Starting from IT equipment maintenance, Anti-virus, Windows, IT Helpdesk, technical support and application development."
         },
-        {
+      "faq3": {
           "ask": "Can VMG support other than IT?",
           "answer": "besides IT, we are also starting to expand into other fields, such as psychology consulting. Under the name Vajracipta Nirwana. We provide training and provide psychological therapy for companies and individuals."
         }
-      ]
     },
     "indonesia": {
-      "menu":["Beranda","Tentang","Jasa","FAQ","Galeri","Klien","Kontak"],
-      "slider1_header":"Information Technology Solution",
-      "slider1":"We're In The Business Of Helping Your Information Technolgy Solution",
-      "slider1_footer1":"See Services",
-      "slider1_footer2":"Learn More",
-      "slider2_header" : "The Best Information Technolgy Solution",
-      "slider2" : "We're In The Business Of Get Quality Information Technology Services",
-      "slider2_footer1":"See Services",
-      "slider2_footer2":"Learn More",
-      "slider3_header" : "The Best Information Technology",
-      "slider3" : "Helping Information Technology Solution for Your Business",
-      "slider3_footer1":"See Services",
-      "slider3_footer2":"Learn More",
-      //"history": "Di awal tahun 2016, pesatnya perkembangan Teknologi Informasi menjadi isu hangat di dunia. <br/> Peluang besar itu juga membawa VMG untuk ikut terjun dalam bisnis IT. <br/> Berdasarkan pengalaman, training dan pengetahuan yang kami miliki maka tahun 2017 VMG secara resmi menjadi perusahaan IT konsultan dan IT Service Delivery.",
-      "history": "<p style='text-align: justify;text-indent: 30px;'>In the early 2016, the rapid of technology development becomes hot issue in the world, including here in Indonesia. This situation has made fast growth of the information technology for globalization, because of the improvement of all industries sector in Indonesia as shown by increasing number of new corporation or existing company which getting bigger, create Indonesia become interested market for computer manufacturing of all over the world.</p><p style='text-align: justify;text-indent: 30px;'> Considering the great opportunity in information technology business in Indonesia, VMG Group has striven to keep pace in that business since 2016. Therefore, we have built a strong business foundation for our company. After two years has been passed, information technology is still growing, even faster. So, we have always updated our knowledge and skill to perform well in IT business.</p><p style='text-align: justify;text-indent: 30px;'> Besides we have given training and development In the year of 2016, we created taylor made software for Fix Assets Management, which can assist our customer’s operational activity. While facing the future with confidence, we find some threat that will occur in the following years. We have to continuously prepare our selves to meet the challenges of the future. </p>",
+      "menu":["Beranda","Tentang Kami","Jasa","FAQ","Galeri","Klien","Kontak"],
+      "slider1_header":"Solusi TI",
+      "slider1":"Kami Berada Dalam Bisnis Membantu Solusi Teknologi Informasi Anda",
+      "slider1_footer1":"Lihat Layanan",
+      "slider1_footer2":"Lebih Lanjut",
+      "slider2_header" : "Solusi TI Terbaik",
+      "slider2" : "Kami Bergerak Dalam Bisnis Mendapatkan Layanan Teknologi Informasi Berkualitas",
+      "slider2_footer1":"Lihat Layanan",
+      "slider2_footer2":"Lebih Lanjut",
+      "slider3_header" : "TI Terbaik",
+      "slider3" : "Membantu Solusi Teknologi Informasi untuk Bisnis Anda",
+      "slider3_footer1":"Lihat Layanan",
+      "slider3_footer2":"Lebih Lanjut",
+      "history": "<p style='text-align: justify;text-indent: 30px;'>Di awal tahun 2016, pesatnya perkembangan teknologi menjadi isu hangat di dunia, termasuk di Indonesia. Kondisi ini membuat pesatnya pertumbuhan teknologi informasi di era globalisasi, karena semakin berkembangnya semua sektor industri di Indonesia yang ditandai dengan semakin banyaknya perusahaan baru maupun perusahaan lama yang semakin besar, menjadikan Indonesia sebagai pasar yang diminati untuk manufaktur komputer di seluruh dunia.</p><p style='text-align: justify;text-indent: 30px;'> Melihat besarnya peluang bisnis teknologi informasi di Indonesia, VMG Group telah berupaya keras untuk mengimbanginya sejak tahun 2016. Oleh karena itu, kami telah membangun fondasi bisnis yang kuat bagi perusahaan kami. Setelah dua tahun berlalu, teknologi informasi masih terus berkembang, bahkan lebih cepat. Oleh karena itu, kami selalu memperbarui pengetahuan dan keterampilan kami untuk dapat tampil baik dalam bisnis TI.</p><p style='text-align: justify;text-indent: 30px;'> Selain itu kami juga memberikan pelatihan dan pengembangan. Pada tahun 2016, kami menciptakan perangkat lunak buatan Taylor untuk Manajemen Aset Tetap, yang dapat membantu aktivitas operasional pelanggan kami. Sambil menghadapi masa depan dengan percaya diri, kami menemukan beberapa ancaman yang akan terjadi di tahun-tahun berikutnya. Kami harus terus mempersiapkan diri untuk menghadapi tantangan masa depan. </p>",
       "address": "Maple Park Apartement, Lt UG. R 205 Jl HBR Motik No 2, Sunter Agung, Tanjung Priok Jakarta Utara 14350",
       "quotes":["Produk dan layanan VMG harus berkontribusi pada keuntungan klien kami.",
         "Biaya yang VMG tagihkan harus sesuai dengan kinerja yang dihasilkan.",
@@ -331,25 +328,31 @@
           //    ""
             ]
           },
-      "faq": [
+      "faq1": 
         {
           "ask": "PT Vajiro Mulia Gemilang  (VMG) Perushaan Apa sih?",
           "answer": "VMG adalah Perusahaan yang bergerak di Bidang IT, kami memiliki divisi Hardware, Software dan Outsourcing."
         },
+      "faq2":
         {
           "ask": "PT Vajiro Mulia Gemilang bisa mensupport Apa saja?",
           "answer": "Kami menyediakan segala jenis kebutuhan IT Perusahaan. Mulai dari maintenance ala-alat IT, Anti virus, Windows sampai dengan Helpdesk IT, teknikal Support dan develop aplikasi."
         },
+      "faq3":
         {
           "ask": "Apakah VMG bisa mensupport selain IT?",
           "answer": "Selain IT kami juga mulai merambah ke bidang lain, Seperti konsultan psikologi. Dengan nama Vajracipta Nirwana kami mengadakan pelatihan dan melakukan terapi psikologi untuk Perusahaan dan perorangan"
         }
-      ]
     }
   }
 
   /*Region ID Html*/
-  let ask_content = $('#accordion');
+  let ask1_content = $('#accordion-ask1');
+  let answer1_content = $('#accordion-answer1');
+  let ask2_content = $('#accordion-ask2');
+  let answer2_content = $('#accordion-answer2');
+  let ask3_content = $('#accordion-ask3');
+  let answer3_content = $('#accordion-answer3');
   let hardware_list_content = $('#hardware-list');
   let network_list_content = $('#network-list');
   let software_list_content = $('#software-list');
@@ -360,17 +363,17 @@
   let quotes3_content = $('#quotes3');
   let quotes4_content = $('#quotes4');
   let slider1_header_content = $('#slider1_header');
-  let slider1 = $('#slider1');
-  let slider1_footer1 = $('#slider1_footer1');
-  let slider1_footer2 = $('#slider1_footer2');
+  let slider1_content = $('#slider1');
+  let slider1_footer1_content = $('#slider1_footer1');
+  let slider1_footer2_content = $('#slider1_footer2');
   let slider2_header_content = $('#slider2_header');
-  let slider2 = $('#slider2');
-  let slider2_footer1 = $('#slider2_footer1');
-  let slider2_footer2 = $('#slider2_footer2');
+  let slider2_content = $('#slider2');
+  let slider2_footer1_content = $('#slider2_footer1');
+  let slider2_footer2_content = $('#slider2_footer2');
   let slider3_header_content = $('#slider3_header');
-  let slider3 = $('#slider3');
-  let slider3_footer1 = $('#slider3_footer1');
-  let slider3_footer2 = $('#slider3_footer2');
+  let slider3_content = $('#slider3');
+  let slider3_footer1_content = $('#slider3_footer1');
+  let slider3_footer2_content = $('#slider3_footer2');
 
   /*Region Ganti Bahasa*/
   let nation = $('#nation');
@@ -386,36 +389,23 @@
     let instagram = indonesia.instagram;
     let jam_op = indonesia.jam_op;
 
-    let faqs = indonesia.faq;
-    let faqs_html = '';
-    faqs.forEach(function(f, index){
-      const ask = f.ask;
-      const answer = f.answer;
-      let no = index + 1;
-      const collapsible = (index == 0) ? 'in' : '';
-      const active = (index == 0) ? 'class="active"' : '';
+    let ask1 = indonesia.faq1.ask;
+    let answer1 = indonesia.faq1.answer;
 
-      faqs_html += `<!--Panel Default-->
-      <div class="panel panel-default">
-          <div class="panel-heading">
-              <h4 class="check-title">
-                  <a data-toggle="collapse" ${active} data-parent="#accordion" href="#check${no}">
-                      <span class="acc-icons"></span>${ask}
-                  </a>
-              </h4>
-          </div>
-          <div id="check${no}" class="panel-collapse collapse ${collapsible}">
-              <div class="panel-body">
-                  <p>
-                      ${answer}
-                  </p>
-              </div>
-          </div>
-      </div>
-      <!--End Panel Default-->`
-    });
+    let ask2 = indonesia.faq2.ask;
+    let answer2 = indonesia.faq2.answer;
 
-    ask_content.html(faqs_html);
+    let ask3 = indonesia.faq3.ask;
+    let answer3 = indonesia.faq3.answer;
+
+    ask1_content.html(ask1);
+    answer1_content.html(answer1);
+
+    ask2_content.html(ask2);
+    answer2_content.html(answer2);
+
+    ask3_content.html(ask3);
+    answer3_content.html(answer3);
 
     let hdl = indonesia.products.hardware;
     let netl = indonesia.products.network;
@@ -455,19 +445,26 @@
 
     historia_content.html(history);
 
-    /*let quotes = indonesia.quotes;
-    let quotes_html = '';
+    let quotes = indonesia.quotes;
+    quotes1_content.html(quotes[0]);
+    quotes2_content.html(quotes[1]);
+    quotes3_content.html(quotes[2]);
+    quotes4_content.html(quotes[3]);
+    
+    slider1_header_content.html(indonesia.slider1_header);
+    slider1_content.html(indonesia.slider1);
+    slider1_footer1_content.html(indonesia.slider1_footer1);
+    slider1_footer2_content.html(indonesia.slider1_footer2);
+    
+    slider2_header_content.html(indonesia.slider2_header);
+    slider2_content.html(indonesia.slider2);
+    slider2_footer1_content.html(indonesia.slider2_footer1);
+    slider2_footer2_content.html(indonesia.slider2_footer2);
 
-    quotes.forEach(function(f, index){
-      quotes_html += `<div class="single-testi">
-            <div class="testi-text">
-                <p>
-                    ${f}
-                </p>
-            </div>
-        </div>`
-    });
-    quotes_content.html(quotes_html);*/
+    slider3_header_content.html(indonesia.slider3_header);
+    slider3_content.html(indonesia.slider3);
+    slider3_footer1_content.html(indonesia.slider3_footer1);
+    slider3_footer2_content.html(indonesia.slider3_footer2);
   })
 
   let language = $('#uk');
@@ -482,36 +479,23 @@
     let instagram = uk.instagram;
     let jam_op = uk.jam_op;
 
-    let faqs = uk.faq;
-    let faqs_html = '';
-    faqs.forEach(function(f, index){
-      const ask = f.ask;
-      const answer = f.answer;
-      let no = index + 1;
-      const collapsible = (index == 0) ? 'in' : '';
-      const active = (index == 0) ? 'class="active"' : '';
+    let ask1 = uk.faq1.ask;
+    let answer1 = uk.faq1.answer;
 
-      faqs_html += `<!--Panel Default-->
-      <div class="panel panel-default">
-          <div class="panel-heading">
-              <h4 class="check-title">
-                  <a data-toggle="collapse" ${active} data-parent="#accordion" href="#check${no}">
-                      <span class="acc-icons"></span>${ask}
-                  </a>
-              </h4>
-          </div>
-          <div id="check${no}" class="panel-collapse collapse ${collapsible}">
-              <div class="panel-body">
-                  <p>
-                      ${answer}
-                  </p>
-              </div>
-          </div>
-      </div>
-      <!--End Panel Default-->`
-    });
+    let ask2 = uk.faq2.ask;
+    let answer2 = uk.faq2.answer;
 
-    ask_content.html(faqs_html);
+    let ask3 = uk.faq3.ask;
+    let answer3 = uk.faq3.answer;
+
+    ask1_content.html(ask1);
+    answer1_content.html(answer1);
+
+    ask2_content.html(ask2);
+    answer2_content.html(answer2);
+
+    ask3_content.html(ask3);
+    answer3_content.html(answer3);
 
     let hdl = uk.products.hardware;
     let netl = uk.products.network;
@@ -551,12 +535,26 @@
 
     historia_content.html(history);
 
-    /*let quotes = uk.quotes;
-    quotes.forEach(function(f, index){
-      let quotes_html = f;
-      quotes_content.html(quotes_html);  
-    });*/
+    let quotes = uk.quotes;
+    quotes1_content.html(quotes[0]);
+    quotes2_content.html(quotes[1]);
+    quotes3_content.html(quotes[2]);
+    quotes4_content.html(quotes[3]);
+
+    slider1_header_content.html(uk.slider1_header);
+    slider1_content.html(uk.slider1);
+    slider1_footer1_content.html(uk.slider1_footer1);
+    slider1_footer2_content.html(uk.slider1_footer2);
     
+    slider2_header_content.html(uk.slider2_header);
+    slider2_content.html(uk.slider2);
+    slider2_footer1_content.html(uk.slider2_footer1);
+    slider2_footer2_content.html(uk.slider2_footer2);
+
+    slider3_header_content.html(uk.slider3_header);
+    slider3_content.html(uk.slider3);
+    slider3_footer1_content.html(uk.slider3_footer1);
+    slider3_footer2_content.html(uk.slider3_footer2);
   });
   $(document).ready(function(){
     nation.find('a > img').attr('src','img/indonesia.png');
@@ -569,36 +567,23 @@
     let instagram = indonesia.instagram;
     let jam_op = indonesia.jam_op;
 
-    let faqs = indonesia.faq;
-    let faqs_html = '';
-    faqs.forEach(function(f, index){
-      const ask = f.ask;
-      const answer = f.answer;
-      let no = index + 1;
-      const collapsible = (index == 0) ? 'in' : '';
-      const active = (index == 0) ? 'class="active"' : '';
+    let ask1 = indonesia.faq1.ask;
+    let answer1 = indonesia.faq1.answer;
 
-      faqs_html += `<!--Panel Default-->
-      <div class="panel panel-default">
-          <div class="panel-heading">
-              <h4 class="check-title">
-                  <a data-toggle="collapse" ${active} data-parent="#accordion" href="#check${no}">
-                      <span class="acc-icons"></span>${ask}
-                  </a>
-              </h4>
-          </div>
-          <div id="check${no}" class="panel-collapse collapse ${collapsible}">
-              <div class="panel-body">
-                  <p>
-                      ${answer}
-                  </p>
-              </div>
-          </div>
-      </div>
-      <!--End Panel Default-->`
-    });
+    let ask2 = indonesia.faq2.ask;
+    let answer2 = indonesia.faq2.answer;
 
-    ask_content.html(faqs_html);
+    let ask3 = indonesia.faq3.ask;
+    let answer3 = indonesia.faq3.answer;
+
+    ask1_content.html(ask1);
+    answer1_content.html(answer1);
+
+    ask2_content.html(ask2);
+    answer2_content.html(answer2);
+
+    ask3_content.html(ask3);
+    answer3_content.html(answer3);
 
     let hdl = indonesia.products.hardware;
     let netl = indonesia.products.network;
@@ -657,20 +642,27 @@
       }
     });
 
-    /*let quotes = indonesia.quotes;
-    let quotes_html = '';
+    let quotes = indonesia.quotes;
+    quotes1_content.html(quotes[0]);
+    quotes2_content.html(quotes[1]);
+    quotes3_content.html(quotes[2]);
+    quotes4_content.html(quotes[3]);
 
-    quotes.forEach(function(f, index){
-      quotes_html += `<div class="single-testi">
-            <div class="testi-text">
-                <p>
-                    ${f}
-                </p>
-            </div>
-        </div>`
-    });
+    slider1_header_content.html(indonesia.slider1_header);
+    slider1_content.html(indonesia.slider1);
+    slider1_footer1_content.html(indonesia.slider1_footer1);
+    slider1_footer2_content.html(indonesia.slider1_footer2);
     
-    quotes_content.html(quotes_html);*/
+    slider2_header_content.html(indonesia.slider2_header);
+    slider2_content.html(indonesia.slider2);
+    slider2_footer1_content.html(indonesia.slider2_footer1);
+    slider2_footer2_content.html(indonesia.slider2_footer2);
+
+    slider3_header_content.html(indonesia.slider3_header);
+    slider3_content.html(indonesia.slider3);
+    slider3_footer1_content.html(indonesia.slider3_footer1);
+    slider3_footer2_content.html(indonesia.slider3_footer2);
+
 });
 
 })(jQuery);
