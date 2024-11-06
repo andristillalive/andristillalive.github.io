@@ -214,6 +214,8 @@
   ---------------------*/
   let jsoncontent = {
     "english": {
+      "welcome_header": "Welcome To VMG",
+      "welcome_detail": "VMG's success will be measured by the success of our clients.",
       "menu":["Home","About","Services","FAQ","Gallery","Client","Contact"],
       "slider1_header":"Information Technology Solution",
       "slider1":"We're In The Business Of Helping Your Information Technolgy Solution",
@@ -278,6 +280,8 @@
         }
     },
     "indonesia": {
+      "welcome_header": "Selamat datang di VMG",
+      "welcome_detail": "Kesuksesan VMG akan diukur dari kesuksesan klien kami.",
       "menu":["Beranda","Tentang Kami","Jasa","FAQ","Galeri","Klien","Kontak"],
       "slider1_header":"Solusi TI",
       "slider1":"Kami Berada Dalam Bisnis Membantu Solusi Teknologi Informasi Anda",
@@ -362,6 +366,8 @@
   let quotes2_content = $('#quotes2');
   let quotes3_content = $('#quotes3');
   let quotes4_content = $('#quotes4');
+  let quotes2_uk_content = $('#quotes2uk');
+  let quotes3_uk_content = $('#quotes3uk');
   let slider1_header_content = $('#slider1_header');
   let slider1_content = $('#slider1');
   let slider1_footer1_content = $('#slider1_footer1');
@@ -374,6 +380,17 @@
   let slider3_content = $('#slider3');
   let slider3_footer1_content = $('#slider3_footer1');
   let slider3_footer2_content = $('#slider3_footer2');
+
+  let menu1 = $('#nav-home');
+  let menu2 = $('#nav-about');
+  let menu3 = $('#nav-services');
+  let menu4 = $('#nav-faq');
+  let menu5 = $('#nav-gallery');
+  let menu6 = $('#nav-client');
+  let menu7 = $('#nav-contact');
+
+  let wh = $('#welcome_header');
+  let wd = $('#welcome_detail');
 
   /*Region Ganti Bahasa*/
   let nation = $('#nation');
@@ -447,9 +464,15 @@
 
     let quotes = indonesia.quotes;
     quotes1_content.html(quotes[0]);
-    quotes2_content.html(quotes[1]);
+    //quotes2_content.html(quotes[1]);
     quotes3_content.html(quotes[2]);
     quotes4_content.html(quotes[3]);
+
+    quotes2_content.show();
+    quotes2_uk_content.hide();
+
+    quotes3_content.show();
+    quotes3_uk_content.hide();
     
     slider1_header_content.html(indonesia.slider1_header);
     slider1_content.html(indonesia.slider1);
@@ -465,6 +488,21 @@
     slider3_content.html(indonesia.slider3);
     slider3_footer1_content.html(indonesia.slider3_footer1);
     slider3_footer2_content.html(indonesia.slider3_footer2);
+
+    let menus = indonesia.menu;
+    menu1.html(menus[0]);
+    menu2.html(menus[1]);
+    menu3.html(menus[2]);
+    menu4.html(menus[3]);
+    menu5.html(menus[4]);
+    menu6.html(menus[5]);
+    menu7.html(menus[6]);
+
+    let welcome_header = indonesia.welcome_header;
+    let welcome_detail = indonesia.welcome_detail;
+
+    wh.html(welcome_header);
+    wd.html(welcome_detail);
   })
 
   let language = $('#uk');
@@ -537,9 +575,15 @@
 
     let quotes = uk.quotes;
     quotes1_content.html(quotes[0]);
-    quotes2_content.html(quotes[1]);
+    //quotes2_content.html(quotes[1]);
     quotes3_content.html(quotes[2]);
     quotes4_content.html(quotes[3]);
+
+    quotes2_content.hide();
+    quotes2_uk_content.show();
+
+    quotes3_content.hide();
+    quotes3_uk_content.show();
 
     slider1_header_content.html(uk.slider1_header);
     slider1_content.html(uk.slider1);
@@ -555,6 +599,21 @@
     slider3_content.html(uk.slider3);
     slider3_footer1_content.html(uk.slider3_footer1);
     slider3_footer2_content.html(uk.slider3_footer2);
+
+    let menus = uk.menu;
+    menu1.html(menus[0]);
+    menu2.html(menus[1]);
+    menu3.html(menus[2]);
+    menu4.html(menus[3]);
+    menu5.html(menus[4]);
+    menu6.html(menus[5]);
+    menu7.html(menus[6]);
+
+    let welcome_header = uk.welcome_header;
+    let welcome_detail = uk.welcome_detail;
+
+    wh.html(welcome_header);
+    wd.html(welcome_detail);
   });
   $(document).ready(function(){
     nation.find('a > img').attr('src','img/indonesia.png');
@@ -644,9 +703,15 @@
 
     let quotes = indonesia.quotes;
     quotes1_content.html(quotes[0]);
-    quotes2_content.html(quotes[1]);
+    //quotes2_content.html(quotes[1]);
     quotes3_content.html(quotes[2]);
     quotes4_content.html(quotes[3]);
+
+    quotes2_content.show();
+    quotes2_uk_content.hide();
+
+    quotes3_content.show();
+    quotes3_uk_content.hide();
 
     slider1_header_content.html(indonesia.slider1_header);
     slider1_content.html(indonesia.slider1);
@@ -663,6 +728,20 @@
     slider3_footer1_content.html(indonesia.slider3_footer1);
     slider3_footer2_content.html(indonesia.slider3_footer2);
 
+    let menus = indonesia.menu;
+    menu1.html(menus[0]);
+    menu2.html(menus[1]);
+    menu3.html(menus[2]);
+    menu4.html(menus[3]);
+    menu5.html(menus[4]);
+    menu6.html(menus[5]);
+    menu7.html(menus[6]);
+
+    let welcome_header = indonesia.welcome_header;
+    let welcome_detail = indonesia.welcome_detail;
+
+    wh.html(welcome_header);
+    wd.html(welcome_detail);
 });
 
 })(jQuery);
