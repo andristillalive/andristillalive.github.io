@@ -1,5 +1,8 @@
-(function($) {
-  "use strict";
+
+var slideIndex = 1;
+var t;
+(function ($) {
+    "use strict";
 
   /*--------------------------
   preloader
@@ -9,7 +12,28 @@
     pre_loader.fadeOut('slow', function() {
       $(this).remove();
     });
-    //getInstagramFeed("vajiro.mulia.gemilang", "#instagramfeed", 12);
+      //getInstagramFeed("vajiro.mulia.gemilang", "#instagramfeed", 12);
+      //let slideIndex = 0;
+      //showSlides();
+
+      //function showSlides() {
+      //    let i;
+      //    let slides = document.getElementsByClassName("mySlides");
+      //    let dots = document.getElementsByClassName("dot");
+      //    for (i = 0; i < slides.length; i++) {
+      //        slides[i].style.display = "none";
+      //    }
+      //    slideIndex++;
+      //    if (slideIndex > slides.length) { slideIndex = 1 }
+      //    for (i = 0; i < dots.length; i++) {
+      //        dots[i].className = dots[i].className.replace(" active", "");
+      //    }
+      //    slides[slideIndex - 1].style.display = "block";
+      //    dots[slideIndex - 1].className += " active";
+      //    setTimeout(showSlides, 5000); // Change every 2 seconds
+      //}
+
+      showSlides(slideIndex);
   });
 
   /*---------------------
@@ -366,8 +390,8 @@
   let quotes2_content = $('#quotes2');
   let quotes3_content = $('#quotes3');
   let quotes4_content = $('#quotes4');
-  let quotes2_uk_content = $('#quotes2uk');
-  let quotes3_uk_content = $('#quotes3uk');
+  //let quotes2_uk_content = $('#quotes2uk');
+  //let quotes3_uk_content = $('#quotes3uk');
   let slider1_header_content = $('#slider1_header');
   let slider1_content = $('#slider1');
   let slider1_footer1_content = $('#slider1_footer1');
@@ -464,15 +488,15 @@
 
     let quotes = indonesia.quotes;
     quotes1_content.html(quotes[0]);
-    //quotes2_content.html(quotes[1]);
+    quotes2_content.html(quotes[1]);
     quotes3_content.html(quotes[2]);
     quotes4_content.html(quotes[3]);
 
-    quotes2_content.show();
-    quotes2_uk_content.hide();
+    //quotes2_content.show();
+    //quotes2_uk_content.hide();
 
-    quotes3_content.show();
-    quotes3_uk_content.hide();
+    //quotes3_content.show();
+    //quotes3_uk_content.hide();
     
     slider1_header_content.html(indonesia.slider1_header);
     slider1_content.html(indonesia.slider1);
@@ -575,15 +599,15 @@
 
     let quotes = uk.quotes;
     quotes1_content.html(quotes[0]);
-    //quotes2_content.html(quotes[1]);
+    quotes2_content.html(quotes[1]);
     quotes3_content.html(quotes[2]);
     quotes4_content.html(quotes[3]);
 
-    quotes2_content.hide();
-    quotes2_uk_content.show();
+    //quotes2_content.hide();
+    //quotes2_uk_content.show();
 
-    quotes3_content.hide();
-    quotes3_uk_content.show();
+    //quotes3_content.hide();
+    //quotes3_uk_content.show();
 
     slider1_header_content.html(uk.slider1_header);
     slider1_content.html(uk.slider1);
@@ -703,15 +727,15 @@
 
     let quotes = indonesia.quotes;
     quotes1_content.html(quotes[0]);
-    //quotes2_content.html(quotes[1]);
+    quotes2_content.html(quotes[1]);
     quotes3_content.html(quotes[2]);
     quotes4_content.html(quotes[3]);
 
-    quotes2_content.show();
-    quotes2_uk_content.hide();
+    //quotes2_content.show();
+    //quotes2_uk_content.hide();
 
-    quotes3_content.show();
-    quotes3_uk_content.hide();
+    //quotes3_content.show();
+    //quotes3_uk_content.hide();
 
     slider1_header_content.html(indonesia.slider1_header);
     slider1_content.html(indonesia.slider1);
@@ -745,6 +769,55 @@
 });
 
 })(jQuery);
+
+function showSlides(n) {
+
+    var i;
+
+    var slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    dots[slideIndex - 1].className += " active";
+
+    if (n == undefined) {
+        n = ++slideIndex;
+    }
+
+    if (n > slides.length) {
+        slideIndex = 1
+    }
+
+    if (n < 1) {
+        slideIndex = slides.length
+    }
+
+
+
+    for (i = 0; i < slides.length; i++) {
+
+        slides[i].style.display = "none";
+
+    }
+
+    slides[slideIndex - 1].style.display = "block";
+
+    t = setTimeout(showSlides, 5000);
+
+}
+
+function plusSlides(n) {
+    slideIndex = ((slideIndex == 1 && n == -1) ? 5 : ((slideIndex == 4 && n == 1) ? 0 : slideIndex)) + n;
+    clearTimeout(t);
+    showSlides(slideIndex);
+}
+
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+
+}
 
 function getInstagramFeed(username, container, items) {
     if (!$(container).length)
