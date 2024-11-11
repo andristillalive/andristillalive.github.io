@@ -275,19 +275,6 @@ var t;
         ],
           "outsourcing": [
             "The existence of a third party/vendor (VMG) to help with company/client problems expecially for IT Expert workers"
-          //"Perusahaan tentunya membutuhkan tenaga ahli dalam bidang IT yang dapat menjamin operasional dari suatu perusahaan dapat berjalan dengan baik",
-          //"Isu yang sering terjadi adalah Perusahaan/klien menemui kesulitan untuk mengurus karyawan, karena lebih focus dalam mengembangkan core business perusahaan,",
-          //"Solusi : Adanya pihak ketiga/vendor (VMG) untuk membantu perusahaan/klien",
-          //{
-          //  "keuntungan_header": "Keuntungan menggunakan pihak ketiga adalah.",
-          //  "keuntungan": [
-          //    "Membantu perusahaan menyelesaikan masalah dalam bidang IT Services,",
-          //    "Pekerja mengikuti sistem dan budaya perusahaan,",
-          //    "Dibantu dengan software untuk mengukur kinerja karyawan / KPI,",
-          //    "Perusahaan tidak perlu pusing memikirkan tunjangan, karir dan Pelatihan karyawan,"
-          //  ]
-          //},
-          //    ""
             ]
           },
       "faq1": {
@@ -341,19 +328,6 @@ var t;
         ],
           "outsourcing": [
               "Adanya pihak ketiga/vendor (VMG) untuk membantu masalah perusahaan/klien khususnya dalam bidang tenaga kerja ahli IT"
-          //"Perusahaan tentunya membutuhkan tenaga ahli dalam bidang IT yang dapat menjamin operasional dari suatu perusahaan dapat berjalan dengan baik",
-          //"Isu yang sering terjadi adalah Perusahaan/klien menemui kesulitan untuk mengurus karyawan, karena lebih focus dalam mengembangkan core business perusahaan,",
-          //"Solusi : Adanya pihak ketiga/vendor (VMG) untuk membantu perusahaan/klien",
-          //{
-          //  "keuntungan_header": "Keuntungan menggunakan pihak ketiga adalah.",
-          //  "keuntungan": [
-          //    "Membantu perusahaan menyelesaikan masalah dalam bidang IT Services,",
-          //    "Pekerja mengikuti sistem dan budaya perusahaan,",
-          //    "Dibantu dengan software untuk mengukur kinerja karyawan / KPI,",
-          //    "Perusahaan tidak perlu pusing memikirkan tunjangan, karir dan Pelatihan karyawan,"
-          //  ]
-          //},
-          //    ""
             ]
           },
       "faq1": 
@@ -364,7 +338,7 @@ var t;
       "faq2":
         {
           "ask": "PT Vajiro Mulia Gemilang bisa mensupport Apa saja?",
-          "answer": "Kami menyediakan segala jenis kebutuhan IT Perusahaan. Mulai dari maintenance ala-alat IT, Anti virus, Windows sampai dengan Helpdesk IT, Technical Support dan Developer aplikasi."
+          "answer": "Kami menyediakan segala jenis kebutuhan IT Perusahaan. Mulai dari maintenance alat-alat IT, Anti virus, Windows sampai dengan Helpdesk IT, Technical Support dan Developer aplikasi."
         },
       "faq3":
         {
