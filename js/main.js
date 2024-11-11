@@ -358,7 +358,7 @@ var t;
           },
       "faq1": 
         {
-          "ask": "PT Vajiro Mulia Gemilang  (VMG) Perushaan Apa sih?",
+          "ask": "PT Vajiro Mulia Gemilang  (VMG) Perusahaan Apa sih?",
           "answer": "VMG adalah Perusahaan yang bergerak di Bidang IT, kami memiliki divisi Hardware, Software dan Outsourcing."
         },
       "faq2":
