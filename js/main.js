@@ -241,6 +241,7 @@ var t;
       "welcome_header": "Welcome To VMG",
       "welcome_detail": "VMG's success will be measured by the success of our clients.",
       "menu":["Home","About","Services","FAQ","Gallery","Client","Contact"],
+      "section":["About Vajiro Mulia Gemilang (VMG)", "Our Services", "Frequently Ask Question","Gallery","Our Client","Contact us"],
       "slider1_header":"Information Technology Solution",
       "slider1":"We're In The Business Of Helping Your Information Technolgy Solution",
       "slider1_footer1":"See Services",
@@ -259,9 +260,11 @@ var t;
         "The fees that VMG charges must be commensurate with the performance produced.",
         "VMG's growth will be based on projects currently underway<br /> which is profitable and can be implemented on time and in accordance with our clients' expectations.",
         "VMG staff and employees will continue to be trained in current technologies (up to date)<br /> with the target of achieving job satisfaction for both VMG and clients."],
+      "telp_header": "Phone:",
       "telp": "+6216543708",
       "email": "vajiro@vmg-vajracipta.com",
       "instagram": "@vajiro.mulia.gemilang",
+      "jam_op_header":"Working Hours:",
       "jam_op": "Monday-Friday 9.00 am until 5.00 pm ",
       "products": {
         "hardware": [
@@ -294,6 +297,7 @@ var t;
       "welcome_header": "Selamat datang di VMG",
       "welcome_detail": "Kesuksesan VMG akan diukur dari kesuksesan klien kami.",
       "menu":["Beranda","Tentang Kami","Jasa","FAQ","Galeri","Klien","Kontak"],
+      "section":["Tentang Vajiro Mulia Gemilang (VMG)", "Jasa Kami", "Frequently Ask Question","Galeri","Klien","Hubungi Kami"],
       "slider1_header":"Solusi TI",
       "slider1":"Kami Berada Dalam Bisnis Membantu Solusi Teknologi Informasi Anda",
       "slider1_footer1":"Lihat Layanan",
@@ -312,9 +316,11 @@ var t;
         "Biaya yang VMG tagihkan harus sesuai dengan kinerja yang dihasilkan.",
         "Pertumbuhan VMG akan didasarkan pada proyek-proyek yang sedang dikerjakan<br />yang menguntungkan dan dapat dilaksanakan tepat waktu dan sesuai dengan harapan klien kami.",
         "Staf dan karyawan VMG akan terus dilatih dalam teknologi saat ini (up to date)<br /> dengan target mendapatkan kepuasan kerja bagi VMG maupun klien."],
+      "telp_header": "Telepon",
       "telp": "+6216543708",
       "email": "vajiro@vmg-vajracipta.com",
       "instagram": "@vajiro.mulia.gemilang",
+      "jam_op_header":"Jam Kerja",
       "jam_op": "Senin-Jumat 09.00-17.00",
       "products": {
         "hardware": [
@@ -389,6 +395,16 @@ var t;
 
   let wh = $('#welcome_header');
   let wd = $('#welcome_detail');
+
+  let section1 = $('#section-about');
+  let section2 = $('#section-services');
+  let section3 = $('#section-faq');
+  let section4 = $('#section-gallery');
+  let section5 = $('#section-client');
+  let section6 = $('#section-contactus');
+
+  let telp_header_content = $('#telp_header');
+  let jam_op_header_content = $('#jam_op_header');
 
   /*Region Ganti Bahasa*/
   let nation = $('#nation');
@@ -501,6 +517,22 @@ var t;
 
     wh.html(welcome_header);
     wd.html(welcome_detail);
+
+    let sections = indonesia.section;
+    section1.html(sections[0]);
+    section2.html(sections[1]);
+    section3.html(sections[2]);
+    section4.html(sections[3]);
+    section5.html(sections[4]);
+    section6.html(sections[5]);
+
+    let telp_header = indonesia.telp_header;
+    let jam_op_header = indonesia.jam_op_header;
+    
+    telp_header_content.html(telp_header);
+    document.getElementById('telp_header').nextElementSibling.text = telp;
+    jam_op_header_content.html(jam_op_header);
+    document.getElementById('jam_op_header').nextElementSibling.text = jam_op;
   })
 
   let language = $('#uk');
@@ -612,6 +644,22 @@ var t;
 
     wh.html(welcome_header);
     wd.html(welcome_detail);
+
+    let sections = uk.section;
+    section1.html(sections[0]);
+    section2.html(sections[1]);
+    section3.html(sections[2]);
+    section4.html(sections[3]);
+    section5.html(sections[4]);
+    section6.html(sections[5]);
+
+    let telp_header = uk.telp_header;
+    let jam_op_header = uk.jam_op_header;
+    
+    telp_header_content.html(telp_header);
+    document.getElementById('telp_header').nextElementSibling.text = telp;
+    jam_op_header_content.html(jam_op_header);
+    document.getElementById('jam_op_header').nextElementSibling.text = jam_op;
   });
   $(document).ready(function(){
     nation.find('a > img').attr('src','img/indonesia.png');
@@ -740,6 +788,22 @@ var t;
 
     wh.html(welcome_header);
     wd.html(welcome_detail);
+
+    let sections = indonesia.section;
+    section1.html(sections[0]);
+    section2.html(sections[1]);
+    section3.html(sections[2]);
+    section4.html(sections[3]);
+    section5.html(sections[4]);
+    section6.html(sections[5]);
+
+    let telp_header = indonesia.telp_header;
+    let jam_op_header = indonesia.jam_op_header;
+    
+    telp_header_content.html(telp_header);
+    document.getElementById('telp_header').nextElementSibling.text = telp;
+    jam_op_header_content.html(jam_op_header);
+    document.getElementById('jam_op_header').nextElementSibling.text = jam_op;
 });
 
 })(jQuery);
