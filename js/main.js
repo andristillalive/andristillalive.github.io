@@ -265,7 +265,7 @@ var t;
       "email": "vajiro@vmg-vajracipta.com",
       "instagram": "@vajiro.mulia.gemilang",
       "jam_op_header":"Working Hours:",
-      "jam_op": "Monday-Friday 9.00 am until 5.00 pm ",
+      "jam_op": " Monday-Friday 9.00 am until 5.00 pm ",
       "products": {
         "hardware": [
               "Provide IT Hardware Services: Personal Computer, Printers, Servers, Notebook / Ipad, etc"
@@ -316,12 +316,12 @@ var t;
         "Biaya yang VMG tagihkan harus sesuai dengan kinerja yang dihasilkan.",
         "Pertumbuhan VMG akan didasarkan pada proyek-proyek yang sedang dikerjakan<br />yang menguntungkan dan dapat dilaksanakan tepat waktu dan sesuai dengan harapan klien kami.",
         "Staf dan karyawan VMG akan terus dilatih dalam teknologi saat ini (up to date)<br /> dengan target mendapatkan kepuasan kerja bagi VMG maupun klien."],
-      "telp_header": "Telepon",
+      "telp_header": "Telepon:",
       "telp": "+6216543708",
       "email": "vajiro@vmg-vajracipta.com",
       "instagram": "@vajiro.mulia.gemilang",
-      "jam_op_header":"Jam Kerja",
-      "jam_op": "Senin-Jumat 09.00-17.00",
+      "jam_op_header":"Jam Kerja:",
+      "jam_op": " Senin-Jumat 09.00-17.00",
       "products": {
         "hardware": [
           "Menyediakan Kebutuhan seperti: Personal Computer, Printers, Servers, Notebook / Ipad"
@@ -532,7 +532,10 @@ var t;
     telp_header_content.html(telp_header);
     document.getElementById('telp_header').nextElementSibling.text = telp;
     jam_op_header_content.html(jam_op_header);
-    document.getElementById('jam_op_header').nextElementSibling.text = jam_op;
+    var textopbefore = jam_op_header_content[0].nextSibling.textContent;
+    var replacetext = jam_op_header_content[0].nextSibling.textContent.replace(textopbefore, jam_op);
+    jam_op_header_content[0].nextSibling.textContent = replacetext;
+    //document.getElementById('jam_op_header')[0].nextSibling.textContent.replace("Senin-Jumat 09.00-17.00", jam_op); //= jam_op;
   })
 
   let language = $('#uk');
@@ -659,7 +662,10 @@ var t;
     telp_header_content.html(telp_header);
     document.getElementById('telp_header').nextElementSibling.text = telp;
     jam_op_header_content.html(jam_op_header);
-    document.getElementById('jam_op_header').nextElementSibling.text = jam_op;
+    var textopbefore = jam_op_header_content[0].nextSibling.textContent;
+    var replacetext = jam_op_header_content[0].nextSibling.textContent.replace(textopbefore, jam_op);
+    jam_op_header_content[0].nextSibling.textContent = replacetext;
+    //document.getElementById('jam_op_header').nextElementSibling.text = jam_op;
   });
   $(document).ready(function(){
     nation.find('a > img').attr('src','img/indonesia.png');
@@ -803,7 +809,10 @@ var t;
     telp_header_content.html(telp_header);
     document.getElementById('telp_header').nextElementSibling.text = telp;
     jam_op_header_content.html(jam_op_header);
-    document.getElementById('jam_op_header').nextElementSibling.text = jam_op;
+    var textopbefore = jam_op_header_content[0].nextSibling.textContent;
+    var replacetext = jam_op_header_content[0].nextSibling.textContent.replace(textopbefore, jam_op);
+    jam_op_header_content[0].nextSibling.textContent = replacetext;
+    //document.getElementById('jam_op_header').nextElementSibling.text = jam_op;
 });
 
 })(jQuery);
