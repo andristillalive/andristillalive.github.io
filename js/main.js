@@ -265,7 +265,7 @@ var t;
       "email": "vajiro@vmg-vajracipta.com",
       "instagram": "@vajiro.mulia.gemilang",
       "jam_op_header":"Working Hours:",
-      "jam_op": " Monday-Friday 9.00 am until 5.00 pm ",
+      "jam_op": " Monday-Friday <br /> 9.00 am until 5.00 pm ",
       "products": {
         "hardware": [
               "Provide IT Hardware Services: Personal Computer, Printers, Servers, Notebook / Ipad, etc"
@@ -321,7 +321,7 @@ var t;
       "email": "vajiro@vmg-vajracipta.com",
       "instagram": "@vajiro.mulia.gemilang",
       "jam_op_header":"Jam Kerja:",
-      "jam_op": " Senin-Jumat 09.00-17.00",
+      "jam_op": " Senin-Jumat <br /> 09.00-17.00",
       "products": {
         "hardware": [
           "Menyediakan Kebutuhan seperti: Personal Computer, Printers, Servers, Notebook / Ipad"
@@ -534,7 +534,7 @@ var t;
     jam_op_header_content.html(jam_op_header);
     var textopbefore = jam_op_header_content[0].nextSibling.textContent;
     var replacetext = jam_op_header_content[0].nextSibling.textContent.replace(textopbefore, jam_op);
-    jam_op_header_content[0].nextSibling.textContent = replacetext;
+    jam_op_header_content[0].nextElementSibling.innerHTML = replacetext;
     //document.getElementById('jam_op_header')[0].nextSibling.textContent.replace("Senin-Jumat 09.00-17.00", jam_op); //= jam_op;
   })
 
@@ -664,7 +664,7 @@ var t;
     jam_op_header_content.html(jam_op_header);
     var textopbefore = jam_op_header_content[0].nextSibling.textContent;
     var replacetext = jam_op_header_content[0].nextSibling.textContent.replace(textopbefore, jam_op);
-    jam_op_header_content[0].nextSibling.textContent = replacetext;
+    jam_op_header_content[0].nextElementSibling.innerHTML = replacetext;
     //document.getElementById('jam_op_header').nextElementSibling.text = jam_op;
   });
   $(document).ready(function(){
@@ -811,7 +811,7 @@ var t;
     jam_op_header_content.html(jam_op_header);
     var textopbefore = jam_op_header_content[0].nextSibling.textContent;
     var replacetext = jam_op_header_content[0].nextSibling.textContent.replace(textopbefore, jam_op);
-    jam_op_header_content[0].nextSibling.textContent = replacetext;
+    jam_op_header_content[0].nextElementSibling.innerHTML = replacetext;
     //document.getElementById('jam_op_header').nextElementSibling.text = jam_op;
 });
 
