@@ -80,6 +80,7 @@ var t;
     pauseTime: 5000,
     startSlide: 0,
     directionNav: true,
+    controlNav: true,
     controlNavThumbs: false,
     pauseOnHover: true,
     manualAdvance: false,
@@ -265,7 +266,7 @@ var t;
       "email": "vajiro@vmg-vajracipta.com",
       "instagram": "@vajiro.mulia.gemilang",
       "jam_op_header":"Working Hours:",
-      "jam_op": " Monday-Friday <br /> 9.00 am until 5.00 pm ",
+      "jam_op": "&nbsp;Monday-Friday",
       "products": {
         "hardware": [
               "Provide IT Hardware Services: Personal Computer, Printers, Servers, Notebook / Ipad, etc"
@@ -321,7 +322,7 @@ var t;
       "email": "vajiro@vmg-vajracipta.com",
       "instagram": "@vajiro.mulia.gemilang",
       "jam_op_header":"Jam Kerja:",
-      "jam_op": " Senin-Jumat <br /> 09.00-17.00",
+      "jam_op": "&nbsp;Senin-Jumat",
       "products": {
         "hardware": [
           "Menyediakan Kebutuhan seperti: Personal Computer, Printers, Servers, Notebook / Ipad"
@@ -406,10 +407,13 @@ var t;
   let telp_header_content = $('#telp_header');
   let jam_op_header_content = $('#jam_op_header');
 
+  let telp_content = $('#telp');
+  let jam_op_content = $('#jam_op');
+
   /*Region Ganti Bahasa*/
   let nation = $('#nation');
   let bahasa = $('#indonesia');
-  bahasa.on('click', function(){
+  bahasa.on('click', function(event){
     nation.find('a > img').attr('src','img/indonesia.png');
     let indonesia = jsoncontent.indonesia;
 
@@ -530,16 +534,21 @@ var t;
     let jam_op_header = indonesia.jam_op_header;
     
     telp_header_content.html(telp_header);
-    document.getElementById('telp_header').nextElementSibling.text = telp;
+    //document.getElementById('telp_header').nextElementSibling.text = telp;
     jam_op_header_content.html(jam_op_header);
-    var textopbefore = jam_op_header_content[0].nextSibling.textContent;
-    var replacetext = jam_op_header_content[0].nextSibling.textContent.replace(textopbefore, jam_op);
-    jam_op_header_content[0].nextElementSibling.innerHTML = replacetext;
+    telp_content.html(telp);
+    jam_op_content.html(jam_op);
+
+    //let textopbefore = jam_op_header_content[0].nextSibling.textContent;
+    //let replacetext = jam_op_header_content[0].nextSibling.textContent.replace(textopbefore, jam_op);
+    //jam_op_header_content[0].nextElementSibling.text = replacetext;
     //document.getElementById('jam_op_header')[0].nextSibling.textContent.replace("Senin-Jumat 09.00-17.00", jam_op); //= jam_op;
+    $(".navbar-collapse.collapse").removeClass('in');
+    event.preventDefault();
   })
 
   let language = $('#uk');
-  language.on('click', function(){
+  language.on('click', function(event){
     nation.find('a > img').attr('src','img/united-kingdom.png');
     let uk = jsoncontent.english;
 
@@ -660,12 +669,16 @@ var t;
     let jam_op_header = uk.jam_op_header;
     
     telp_header_content.html(telp_header);
-    document.getElementById('telp_header').nextElementSibling.text = telp;
+    //document.getElementById('telp_header').nextElementSibling.text = telp;
     jam_op_header_content.html(jam_op_header);
-    var textopbefore = jam_op_header_content[0].nextSibling.textContent;
-    var replacetext = jam_op_header_content[0].nextSibling.textContent.replace(textopbefore, jam_op);
-    jam_op_header_content[0].nextElementSibling.innerHTML = replacetext;
+    telp_content.html(telp);
+    jam_op_content.html(jam_op);
+    //let textopbefore = jam_op_header_content[0].nextSibling.textContent;
+    //let replacetext = jam_op_header_content[0].nextSibling.textContent.replace(textopbefore, jam_op);
+    //jam_op_header_content[0].nextElementSibling.text = replacetext;
     //document.getElementById('jam_op_header').nextElementSibling.text = jam_op;
+    $(".navbar-collapse.collapse").removeClass('in');
+    event.preventDefault();
   });
   $(document).ready(function(){
     nation.find('a > img').attr('src','img/indonesia.png');
@@ -807,11 +820,13 @@ var t;
     let jam_op_header = indonesia.jam_op_header;
     
     telp_header_content.html(telp_header);
-    document.getElementById('telp_header').nextElementSibling.text = telp;
+    //document.getElementById('telp_header').nextElementSibling.text = telp;
     jam_op_header_content.html(jam_op_header);
-    var textopbefore = jam_op_header_content[0].nextSibling.textContent;
-    var replacetext = jam_op_header_content[0].nextSibling.textContent.replace(textopbefore, jam_op);
-    jam_op_header_content[0].nextElementSibling.innerHTML = replacetext;
+    telp_content.html(telp);
+    jam_op_content.html(jam_op);
+    //let textopbefore = jam_op_header_content[0].nextSibling.textContent;
+    //let replacetext = jam_op_header_content[0].nextSibling.textContent.replace(textopbefore, jam_op);
+    //jam_op_header_content[0].nextElementSibling.innerHTML = replacetext;
     //document.getElementById('jam_op_header').nextElementSibling.text = jam_op;
 });
 
